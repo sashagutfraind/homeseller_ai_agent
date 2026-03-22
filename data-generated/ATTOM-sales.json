@@ -1,0 +1,5174 @@
+[
+  {
+    "property_id": "ATTOM-10001-IL",
+    "address": "7024 Ashland Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 312686,
+      "sold_date": "2025-10-16",
+      "original_list_price": 319195,
+      "sale_to_list_ratio": 0.98,
+      "days_on_market": 22,
+      "competing_offers": 6,
+      "concessions_paid": 2053
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1028,
+      "lot_size_ac": 0.06,
+      "condition_grade": "B",
+      "year_built": 2004,
+      "last_reno_year": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.93
+    }
+  },
+  {
+    "property_id": "MLS-10002-IL",
+    "address": "3250 Maple Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 537300,
+      "sold_date": "2024-10-11",
+      "original_list_price": 565785,
+      "sale_to_list_ratio": 0.95,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1709,
+      "lot_size_ac": 0.38,
+      "condition_grade": "B+",
+      "year_built": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.37
+    }
+  },
+  {
+    "property_id": "MLS-10003-IL",
+    "address": "9225 Clark St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 914375,
+      "sold_date": "2024-02-16",
+      "original_list_price": 973739,
+      "sale_to_list_ratio": 0.939,
+      "days_on_market": 12,
+      "competing_offers": 7,
+      "concessions_paid": 5786
+    },
+    "features": {
+      "beds": 4,
+      "baths": 4,
+      "sqft": 3953,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.1
+    }
+  },
+  {
+    "property_id": "RE-10004-IL",
+    "address": "9660 Lincoln Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 569335,
+      "sold_date": "2025-12-02",
+      "original_list_price": 554037,
+      "sale_to_list_ratio": 1.028,
+      "days_on_market": 27,
+      "concessions_paid": 6598
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1969,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1978,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.71
+    }
+  },
+  {
+    "property_id": "MLS-10005-IL",
+    "address": "4471 Ashland Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 299668,
+      "sold_date": "2025-01-05",
+      "original_list_price": 317879,
+      "sale_to_list_ratio": 0.943,
+      "days_on_market": 49
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1305,
+      "lot_size_ac": 0.32,
+      "condition_grade": "B",
+      "year_built": 1919
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.42
+    }
+  },
+  {
+    "property_id": "ATTOM-10006-IL",
+    "address": "6047 Halsted St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1010604,
+      "sold_date": "2024-04-24",
+      "original_list_price": 1015410,
+      "sale_to_list_ratio": 0.995,
+      "days_on_market": 72,
+      "competing_offers": 6
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2978,
+      "lot_size_ac": 0.44,
+      "condition_grade": "B+",
+      "year_built": 1922,
+      "last_reno_year": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.42
+    }
+  },
+  {
+    "property_id": "MLS-10007-IL",
+    "address": "5207 Lincoln Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 404025,
+      "sold_date": "2024-09-02",
+      "original_list_price": 442655,
+      "sale_to_list_ratio": 0.913,
+      "days_on_market": 37
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1661,
+      "lot_size_ac": 0.35,
+      "condition_grade": "C+",
+      "year_built": 1968
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.6
+    }
+  },
+  {
+    "property_id": "MLS-10008-IL",
+    "address": "8053 Clark St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 509816,
+      "sold_date": "2025-11-18",
+      "original_list_price": 522653,
+      "sale_to_list_ratio": 0.975,
+      "days_on_market": 34,
+      "competing_offers": 2
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1747,
+      "lot_size_ac": 0.31,
+      "condition_grade": "B+",
+      "year_built": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.41
+    }
+  },
+  {
+    "property_id": "RE-10009-IL",
+    "address": "1890 Clark St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1868813,
+      "sold_date": "2025-07-06",
+      "original_list_price": 2087296,
+      "sale_to_list_ratio": 0.895,
+      "days_on_market": 76,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 5,
+      "baths": 3,
+      "sqft": 5360,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 2001,
+      "last_reno_year": 2022
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.57
+    }
+  },
+  {
+    "property_id": "ATTOM-10010-IL",
+    "address": "2797 Lincoln Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 415879,
+      "sold_date": "2024-07-15",
+      "original_list_price": 434161,
+      "sale_to_list_ratio": 0.958,
+      "days_on_market": 55,
+      "concessions_paid": 5285
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 987,
+      "lot_size_ac": 0.07,
+      "condition_grade": "B+",
+      "year_built": 2008
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.48
+    }
+  },
+  {
+    "property_id": "MLS-10011-IL",
+    "address": "2679 Oak St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 490649,
+      "sold_date": "2024-01-03",
+      "original_list_price": 530389,
+      "sale_to_list_ratio": 0.925,
+      "days_on_market": 27,
+      "concessions_paid": 6785
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2431,
+      "lot_size_ac": 0.3,
+      "condition_grade": "D",
+      "year_built": 1999
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.13
+    }
+  },
+  {
+    "property_id": "RE-10012-IL",
+    "address": "7591 Ashland Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 298048,
+      "sold_date": "2025-06-04",
+      "original_list_price": 344809,
+      "sale_to_list_ratio": 0.864,
+      "days_on_market": 35,
+      "competing_offers": 7,
+      "concessions_paid": 4175
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 869,
+      "lot_size_ac": 0.33,
+      "condition_grade": "B+",
+      "year_built": 2013
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.0
+    }
+  },
+  {
+    "property_id": "ATTOM-10013-IL",
+    "address": "9186 Halsted St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 786449,
+      "sold_date": "2026-02-08",
+      "original_list_price": 762153,
+      "sale_to_list_ratio": 1.032,
+      "days_on_market": 92
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2653,
+      "lot_size_ac": 0.45,
+      "condition_grade": "B",
+      "year_built": 1992
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.57
+    }
+  },
+  {
+    "property_id": "ATTOM-10014-IL",
+    "address": "4391 State St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 280424,
+      "sold_date": "2025-11-10",
+      "original_list_price": 286372,
+      "sale_to_list_ratio": 0.979,
+      "days_on_market": 110,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 918,
+      "lot_size_ac": 0.36,
+      "condition_grade": "C+",
+      "year_built": 2012
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.21
+    }
+  },
+  {
+    "property_id": "ATTOM-10015-IL",
+    "address": "5894 Fullerton Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 406552,
+      "sold_date": "2026-01-29",
+      "original_list_price": 450079,
+      "sale_to_list_ratio": 0.903,
+      "days_on_market": 97,
+      "concessions_paid": 4931
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1519,
+      "lot_size_ac": 0.31,
+      "condition_grade": "B",
+      "year_built": 1919,
+      "last_reno_year": 2018
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.2
+    }
+  },
+  {
+    "property_id": "RE-10016-IL",
+    "address": "3744 Clark St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 828839,
+      "sold_date": "2025-02-20",
+      "original_list_price": 881089,
+      "sale_to_list_ratio": 0.941,
+      "days_on_market": 2,
+      "competing_offers": 3
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 3969,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1903
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.91
+    }
+  },
+  {
+    "property_id": "RE-10017-IL",
+    "address": "726 Maple Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 710799,
+      "sold_date": "2025-04-16",
+      "original_list_price": 757198,
+      "sale_to_list_ratio": 0.939,
+      "days_on_market": 1,
+      "concessions_paid": 4139
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1966,
+      "lot_size_ac": 0.49,
+      "condition_grade": "B+",
+      "year_built": 1988,
+      "last_reno_year": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.73
+    }
+  },
+  {
+    "property_id": "MLS-10018-IL",
+    "address": "5243 Maple Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 874449,
+      "sold_date": "2025-09-02",
+      "original_list_price": 906833,
+      "sale_to_list_ratio": 0.964,
+      "days_on_market": 1,
+      "concessions_paid": 2573
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2393,
+      "lot_size_ac": 0.05,
+      "condition_grade": "B",
+      "year_built": 2012
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.91
+    }
+  },
+  {
+    "property_id": "MLS-10019-IL",
+    "address": "5379 Diversey Pkwy, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 591362,
+      "sold_date": "2026-01-07",
+      "original_list_price": 568725,
+      "sale_to_list_ratio": 1.04,
+      "days_on_market": 69
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2168,
+      "lot_size_ac": 0.35,
+      "condition_grade": "B",
+      "year_built": 1982
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.16
+    }
+  },
+  {
+    "property_id": "ATTOM-10020-IL",
+    "address": "7561 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 864505,
+      "sold_date": "2025-03-28",
+      "original_list_price": 911495,
+      "sale_to_list_ratio": 0.948,
+      "days_on_market": 67
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1847,
+      "lot_size_ac": null,
+      "condition_grade": "A",
+      "year_built": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.44
+    }
+  },
+  {
+    "property_id": "RE-10021-IL",
+    "address": "8370 Lincoln Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 623572,
+      "sold_date": "2025-10-06",
+      "original_list_price": 623983,
+      "sale_to_list_ratio": 0.999,
+      "days_on_market": 56
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2512,
+      "lot_size_ac": 0.4,
+      "condition_grade": "C+",
+      "year_built": 2006,
+      "last_reno_year": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.0
+    }
+  },
+  {
+    "property_id": "MLS-10022-IL",
+    "address": "3605 Maple Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1082883,
+      "sold_date": "2025-07-15",
+      "original_list_price": 1056450,
+      "sale_to_list_ratio": 1.025,
+      "days_on_market": 54,
+      "competing_offers": 5
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2472,
+      "lot_size_ac": 0.33,
+      "condition_grade": "B",
+      "year_built": 2002,
+      "last_reno_year": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.24
+    }
+  },
+  {
+    "property_id": "RE-10023-IL",
+    "address": "7240 Diversey Pkwy, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 410641,
+      "sold_date": "2025-02-28",
+      "original_list_price": 405819,
+      "sale_to_list_ratio": 1.012,
+      "days_on_market": 12
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1627,
+      "lot_size_ac": 0.26,
+      "condition_grade": "C",
+      "year_built": 2006
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.71
+    }
+  },
+  {
+    "property_id": "RE-10024-IL",
+    "address": "3567 Diversey Pkwy, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 491513,
+      "sold_date": "2024-01-30",
+      "original_list_price": 507177,
+      "sale_to_list_ratio": 0.969,
+      "days_on_market": 34
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2328,
+      "lot_size_ac": 0.29,
+      "condition_grade": "D",
+      "year_built": 1916
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.87
+    }
+  },
+  {
+    "property_id": "MLS-10025-IL",
+    "address": "1974 Clark St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 608670,
+      "sold_date": "2024-11-30",
+      "original_list_price": 667627,
+      "sale_to_list_ratio": 0.912,
+      "days_on_market": 64,
+      "competing_offers": 3,
+      "concessions_paid": 5879
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2363,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1999,
+      "last_reno_year": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.45
+    }
+  },
+  {
+    "property_id": "ATTOM-10026-IL",
+    "address": "9372 Oak St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 438453,
+      "sold_date": "2025-04-21",
+      "original_list_price": 437858,
+      "sale_to_list_ratio": 1.001,
+      "days_on_market": 83,
+      "concessions_paid": 4470
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1421,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1913
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.63
+    }
+  },
+  {
+    "property_id": "MLS-10027-IL",
+    "address": "8021 Diversey Pkwy, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 640980,
+      "sold_date": "2024-12-21",
+      "original_list_price": 626509,
+      "sale_to_list_ratio": 1.023,
+      "days_on_market": 24,
+      "competing_offers": 3
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2536,
+      "lot_size_ac": 0.25,
+      "condition_grade": "C+",
+      "year_built": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.73
+    }
+  },
+  {
+    "property_id": "RE-10028-IL",
+    "address": "9206 Oak St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1051438,
+      "sold_date": "2025-03-22",
+      "original_list_price": 1102429,
+      "sale_to_list_ratio": 0.954,
+      "days_on_market": 75,
+      "concessions_paid": 4290
+    },
+    "features": {
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3354,
+      "lot_size_ac": 0.2,
+      "condition_grade": "B",
+      "year_built": 2020
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.76
+    }
+  },
+  {
+    "property_id": "MLS-10029-IL",
+    "address": "5519 Ashland Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 737186,
+      "sold_date": "2025-06-13",
+      "original_list_price": 749855,
+      "sale_to_list_ratio": 0.983,
+      "days_on_market": 89
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2500,
+      "lot_size_ac": 0.41,
+      "condition_grade": "C",
+      "year_built": 1996,
+      "last_reno_year": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.78
+    }
+  },
+  {
+    "property_id": "ATTOM-10030-IL",
+    "address": "4594 Oak St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 277112,
+      "sold_date": "2025-12-20",
+      "original_list_price": 307962,
+      "sale_to_list_ratio": 0.9,
+      "days_on_market": 57,
+      "concessions_paid": 6375
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 923,
+      "lot_size_ac": 0.17,
+      "condition_grade": "B",
+      "year_built": 2011
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.96
+    }
+  },
+  {
+    "property_id": "ATTOM-10031-IL",
+    "address": "2544 Halsted St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1280249,
+      "sold_date": "2024-02-25",
+      "original_list_price": 1186021,
+      "sale_to_list_ratio": 1.079,
+      "days_on_market": 77
+    },
+    "features": {
+      "beds": 5,
+      "baths": 3,
+      "sqft": 5612,
+      "lot_size_ac": 0.25,
+      "condition_grade": "B",
+      "year_built": 1973,
+      "last_reno_year": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.89
+    }
+  },
+  {
+    "property_id": "RE-10032-IL",
+    "address": "1430 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 921404,
+      "sold_date": "2024-03-28",
+      "original_list_price": 914058,
+      "sale_to_list_ratio": 1.008,
+      "days_on_market": 58
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2741,
+      "lot_size_ac": 0.18,
+      "condition_grade": "B",
+      "year_built": 1988
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.69
+    }
+  },
+  {
+    "property_id": "RE-10033-IL",
+    "address": "2430 Maple Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 326409,
+      "sold_date": "2024-09-02",
+      "original_list_price": 351734,
+      "sale_to_list_ratio": 0.928,
+      "days_on_market": 13
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1218,
+      "lot_size_ac": 0.37,
+      "condition_grade": "B",
+      "year_built": 2013
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.17
+    }
+  },
+  {
+    "property_id": "MLS-10034-IL",
+    "address": "9524 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 846708,
+      "sold_date": "2024-03-02",
+      "original_list_price": 853126,
+      "sale_to_list_ratio": 0.992,
+      "days_on_market": 49,
+      "concessions_paid": 4051
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2665,
+      "lot_size_ac": null,
+      "condition_grade": "C",
+      "year_built": 2015
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.96
+    }
+  },
+  {
+    "property_id": "RE-10035-IL",
+    "address": "6661 Fullerton Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 345145,
+      "sold_date": "2026-02-22",
+      "original_list_price": 348774,
+      "sale_to_list_ratio": 0.99,
+      "days_on_market": 38,
+      "competing_offers": 5
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1858,
+      "lot_size_ac": 0.25,
+      "condition_grade": "D",
+      "year_built": 1923
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.25
+    }
+  },
+  {
+    "property_id": "MLS-10036-IL",
+    "address": "4020 State St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 283789,
+      "sold_date": "2024-02-07",
+      "original_list_price": 284313,
+      "sale_to_list_ratio": 0.998,
+      "days_on_market": 81
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 918,
+      "lot_size_ac": 0.13,
+      "condition_grade": "B+",
+      "year_built": 1993
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.72
+    }
+  },
+  {
+    "property_id": "ATTOM-10037-IL",
+    "address": "4626 Lincoln Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 502578,
+      "sold_date": "2024-11-14",
+      "original_list_price": 481744,
+      "sale_to_list_ratio": 1.043,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1960,
+      "lot_size_ac": 0.28,
+      "condition_grade": "B",
+      "year_built": 1919,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.98
+    }
+  },
+  {
+    "property_id": "RE-10038-IL",
+    "address": "6425 State St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 269750,
+      "sold_date": "2024-12-14",
+      "original_list_price": 256503,
+      "sale_to_list_ratio": 1.052,
+      "days_on_market": 50,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1105,
+      "lot_size_ac": 0.25,
+      "condition_grade": "B",
+      "year_built": 1991
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.02
+    }
+  },
+  {
+    "property_id": "RE-10039-IL",
+    "address": "8842 Lincoln Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 2053273,
+      "sold_date": "2025-05-22",
+      "original_list_price": 2147606,
+      "sale_to_list_ratio": 0.956,
+      "days_on_market": 71
+    },
+    "features": {
+      "beds": 4,
+      "baths": 4,
+      "sqft": 4359,
+      "lot_size_ac": 0.23,
+      "condition_grade": "A",
+      "year_built": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.31
+    }
+  },
+  {
+    "property_id": "ATTOM-10040-IL",
+    "address": "8802 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 292068,
+      "sold_date": "2024-11-20",
+      "original_list_price": 292710,
+      "sale_to_list_ratio": 0.998,
+      "days_on_market": 71,
+      "competing_offers": 4,
+      "concessions_paid": 3192
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 870,
+      "lot_size_ac": 0.39,
+      "condition_grade": "B+",
+      "year_built": 1911
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.57
+    }
+  },
+  {
+    "property_id": "RE-10041-IL",
+    "address": "7051 Halsted St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 372054,
+      "sold_date": "2025-08-02",
+      "original_list_price": 392957,
+      "sale_to_list_ratio": 0.947,
+      "days_on_market": 33
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 1191,
+      "lot_size_ac": 0.26,
+      "condition_grade": "B",
+      "year_built": 1918
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.27
+    }
+  },
+  {
+    "property_id": "MLS-10042-IL",
+    "address": "8238 Halsted St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 819767,
+      "sold_date": "2025-04-12",
+      "original_list_price": 875800,
+      "sale_to_list_ratio": 0.936,
+      "days_on_market": 79
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2489,
+      "lot_size_ac": 0.06,
+      "condition_grade": "B",
+      "year_built": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.01
+    }
+  },
+  {
+    "property_id": "RE-10043-IL",
+    "address": "6907 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 934084,
+      "sold_date": "2026-03-05",
+      "original_list_price": 994889,
+      "sale_to_list_ratio": 0.939,
+      "days_on_market": 8,
+      "concessions_paid": 4417
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2803,
+      "lot_size_ac": null,
+      "condition_grade": "C+",
+      "year_built": 1999
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.26
+    }
+  },
+  {
+    "property_id": "RE-10044-IL",
+    "address": "1579 Lincoln Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1573240,
+      "sold_date": "2024-07-24",
+      "original_list_price": 1637759,
+      "sale_to_list_ratio": 0.961,
+      "days_on_market": 47,
+      "concessions_paid": 5255
+    },
+    "features": {
+      "beds": 6,
+      "baths": 5,
+      "sqft": 4498,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1921
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.15
+    }
+  },
+  {
+    "property_id": "MLS-10045-IL",
+    "address": "5051 Lincoln Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 724442,
+      "sold_date": "2024-01-15",
+      "original_list_price": 751171,
+      "sale_to_list_ratio": 0.964,
+      "days_on_market": 11
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2877,
+      "lot_size_ac": 0.1,
+      "condition_grade": "B",
+      "year_built": 2002,
+      "last_reno_year": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.51
+    }
+  },
+  {
+    "property_id": "MLS-10046-IL",
+    "address": "6170 Clark St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 514085,
+      "sold_date": "2024-04-29",
+      "original_list_price": 509386,
+      "sale_to_list_ratio": 1.009,
+      "days_on_market": 70,
+      "competing_offers": 5
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1304,
+      "lot_size_ac": 0.35,
+      "condition_grade": "B",
+      "year_built": 2010
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.92
+    }
+  },
+  {
+    "property_id": "ATTOM-10047-IL",
+    "address": "2163 Clark St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1260004,
+      "sold_date": "2025-03-30",
+      "original_list_price": 1311940,
+      "sale_to_list_ratio": 0.96,
+      "days_on_market": 55,
+      "concessions_paid": 4732
+    },
+    "features": {
+      "beds": 6,
+      "baths": 4,
+      "sqft": 3406,
+      "lot_size_ac": 0.17,
+      "condition_grade": "B",
+      "year_built": 1996
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.82
+    }
+  },
+  {
+    "property_id": "ATTOM-10048-IL",
+    "address": "6997 Fullerton Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 353080,
+      "sold_date": "2024-03-11",
+      "original_list_price": 348947,
+      "sale_to_list_ratio": 1.012,
+      "days_on_market": 65
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1038,
+      "lot_size_ac": 0.49,
+      "condition_grade": "A",
+      "year_built": 1995
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.97
+    }
+  },
+  {
+    "property_id": "ATTOM-10049-IL",
+    "address": "8132 Diversey Pkwy, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 965302,
+      "sold_date": "2024-04-26",
+      "original_list_price": 921044,
+      "sale_to_list_ratio": 1.048,
+      "days_on_market": 151
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2551,
+      "lot_size_ac": 0.38,
+      "condition_grade": "C+",
+      "year_built": 1983
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.91
+    }
+  },
+  {
+    "property_id": "MLS-10050-IL",
+    "address": "1657 Ashland Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 354056,
+      "sold_date": "2024-03-16",
+      "original_list_price": 363634,
+      "sale_to_list_ratio": 0.974,
+      "days_on_market": 24,
+      "concessions_paid": 4776
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 929,
+      "lot_size_ac": 0.09,
+      "condition_grade": "B",
+      "year_built": 2015
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.88
+    }
+  },
+  {
+    "property_id": "RE-10051-IL",
+    "address": "5893 Lincoln Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 754252,
+      "sold_date": "2025-03-13",
+      "original_list_price": 755052,
+      "sale_to_list_ratio": 0.999,
+      "days_on_market": 114
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 1812,
+      "lot_size_ac": null,
+      "condition_grade": "A",
+      "year_built": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.7
+    }
+  },
+  {
+    "property_id": "MLS-10052-IL",
+    "address": "9221 Oak St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 664364,
+      "sold_date": "2026-01-08",
+      "original_list_price": 683891,
+      "sale_to_list_ratio": 0.971,
+      "days_on_market": 49
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2220,
+      "lot_size_ac": 0.21,
+      "condition_grade": "B+",
+      "year_built": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.48
+    }
+  },
+  {
+    "property_id": "MLS-10053-IL",
+    "address": "5414 Maple Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 302718,
+      "sold_date": "2025-09-15",
+      "original_list_price": 357555,
+      "sale_to_list_ratio": 0.847,
+      "days_on_market": 16,
+      "concessions_paid": 4552
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1116,
+      "lot_size_ac": 0.08,
+      "condition_grade": "B",
+      "year_built": 2022
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.21
+    }
+  },
+  {
+    "property_id": "MLS-10054-IL",
+    "address": "997 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 806766,
+      "sold_date": "2024-02-23",
+      "original_list_price": 795033,
+      "sale_to_list_ratio": 1.015,
+      "days_on_market": 29,
+      "concessions_paid": 5237
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2880,
+      "lot_size_ac": 0.24,
+      "condition_grade": "B",
+      "year_built": 1989,
+      "last_reno_year": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.44
+    }
+  },
+  {
+    "property_id": "RE-10055-IL",
+    "address": "407 Diversey Pkwy, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 599542,
+      "sold_date": "2024-07-28",
+      "original_list_price": 616402,
+      "sale_to_list_ratio": 0.973,
+      "days_on_market": 31
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2023,
+      "lot_size_ac": 0.11,
+      "condition_grade": "C+",
+      "year_built": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.38
+    }
+  },
+  {
+    "property_id": "RE-10056-IL",
+    "address": "5662 Clark St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1118833,
+      "sold_date": "2024-03-20",
+      "original_list_price": 1183482,
+      "sale_to_list_ratio": 0.945,
+      "days_on_market": 69,
+      "competing_offers": 5
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2953,
+      "lot_size_ac": 0.13,
+      "condition_grade": "A-",
+      "year_built": 2018
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.43
+    }
+  },
+  {
+    "property_id": "RE-10057-IL",
+    "address": "9348 Ashland Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 681742,
+      "sold_date": "2024-12-07",
+      "original_list_price": 662947,
+      "sale_to_list_ratio": 1.028,
+      "days_on_market": 86,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2586,
+      "lot_size_ac": 0.16,
+      "condition_grade": "B+",
+      "year_built": 1944,
+      "last_reno_year": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.52
+    }
+  },
+  {
+    "property_id": "MLS-10058-IL",
+    "address": "772 Diversey Pkwy, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 435654,
+      "sold_date": "2025-10-04",
+      "original_list_price": 424478,
+      "sale_to_list_ratio": 1.026,
+      "days_on_market": 70
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1252,
+      "lot_size_ac": 0.26,
+      "condition_grade": "B",
+      "year_built": 1987,
+      "last_reno_year": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.92
+    }
+  },
+  {
+    "property_id": "MLS-10059-IL",
+    "address": "9895 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 577756,
+      "sold_date": "2025-08-08",
+      "original_list_price": 555091,
+      "sale_to_list_ratio": 1.041,
+      "days_on_market": 42,
+      "concessions_paid": 4317
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1808,
+      "lot_size_ac": 0.09,
+      "condition_grade": "D",
+      "year_built": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.9
+    }
+  },
+  {
+    "property_id": "RE-10060-IL",
+    "address": "2193 Fullerton Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 589338,
+      "sold_date": "2026-03-19",
+      "original_list_price": 615414,
+      "sale_to_list_ratio": 0.958,
+      "days_on_market": 41
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1494,
+      "lot_size_ac": 0.46,
+      "condition_grade": "B+",
+      "year_built": 2010
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.98
+    }
+  },
+  {
+    "property_id": "MLS-10061-IL",
+    "address": "2247 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 515828,
+      "sold_date": "2024-04-05",
+      "original_list_price": 484591,
+      "sale_to_list_ratio": 1.064,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1116,
+      "lot_size_ac": 0.12,
+      "condition_grade": "B+",
+      "year_built": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.6
+    }
+  },
+  {
+    "property_id": "MLS-10062-IL",
+    "address": "9445 Diversey Pkwy, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 988818,
+      "sold_date": "2024-06-06",
+      "original_list_price": 1005193,
+      "sale_to_list_ratio": 0.984,
+      "days_on_market": 67
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2779,
+      "lot_size_ac": 0.49,
+      "condition_grade": "C+",
+      "year_built": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.83
+    }
+  },
+  {
+    "property_id": "RE-10063-IL",
+    "address": "7461 Fullerton Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 653008,
+      "sold_date": "2025-04-17",
+      "original_list_price": 671693,
+      "sale_to_list_ratio": 0.972,
+      "days_on_market": 78
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2357,
+      "lot_size_ac": null,
+      "condition_grade": "C+",
+      "year_built": 1917
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.91
+    }
+  },
+  {
+    "property_id": "MLS-10064-IL",
+    "address": "7785 Diversey Pkwy, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 2167238,
+      "sold_date": "2024-05-30",
+      "original_list_price": 2335512,
+      "sale_to_list_ratio": 0.928,
+      "days_on_market": 2,
+      "competing_offers": 4
+    },
+    "features": {
+      "beds": 5,
+      "baths": 3,
+      "sqft": 4847,
+      "lot_size_ac": 0.22,
+      "condition_grade": "B+",
+      "year_built": 1988,
+      "last_reno_year": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.11
+    }
+  },
+  {
+    "property_id": "MLS-10065-IL",
+    "address": "2452 Halsted St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 368111,
+      "sold_date": "2025-09-22",
+      "original_list_price": 373167,
+      "sale_to_list_ratio": 0.986,
+      "days_on_market": 78,
+      "competing_offers": 6
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 1020,
+      "lot_size_ac": 0.07,
+      "condition_grade": "B+",
+      "year_built": 2015
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.03
+    }
+  },
+  {
+    "property_id": "RE-10066-IL",
+    "address": "2285 Oak St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 468119,
+      "sold_date": "2025-03-15",
+      "original_list_price": 477774,
+      "sale_to_list_ratio": 0.98,
+      "days_on_market": 50,
+      "concessions_paid": 2849
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1226,
+      "lot_size_ac": null,
+      "condition_grade": "A",
+      "year_built": 1987
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.49
+    }
+  },
+  {
+    "property_id": "RE-10067-IL",
+    "address": "5948 Oak St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 694760,
+      "sold_date": "2024-12-26",
+      "original_list_price": 681490,
+      "sale_to_list_ratio": 1.019,
+      "days_on_market": 1,
+      "concessions_paid": 3565
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2902,
+      "lot_size_ac": 0.07,
+      "condition_grade": "A-",
+      "year_built": 2001,
+      "last_reno_year": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.82
+    }
+  },
+  {
+    "property_id": "ATTOM-10068-IL",
+    "address": "5472 Halsted St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 697334,
+      "sold_date": "2025-11-02",
+      "original_list_price": 713685,
+      "sale_to_list_ratio": 0.977,
+      "days_on_market": 32
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2394,
+      "lot_size_ac": 0.27,
+      "condition_grade": "B+",
+      "year_built": 1949
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.97
+    }
+  },
+  {
+    "property_id": "MLS-10069-IL",
+    "address": "2721 Oak St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 805724,
+      "sold_date": "2024-11-09",
+      "original_list_price": 872621,
+      "sale_to_list_ratio": 0.923,
+      "days_on_market": 4,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2912,
+      "lot_size_ac": null,
+      "condition_grade": "C",
+      "year_built": 1999
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.18
+    }
+  },
+  {
+    "property_id": "ATTOM-10070-IL",
+    "address": "1958 Oak St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 627273,
+      "sold_date": "2024-05-26",
+      "original_list_price": 650188,
+      "sale_to_list_ratio": 0.965,
+      "days_on_market": 48,
+      "concessions_paid": 4283
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1758,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 1987
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.28
+    }
+  },
+  {
+    "property_id": "RE-10071-IL",
+    "address": "5792 Maple Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 718553,
+      "sold_date": "2026-01-23",
+      "original_list_price": 714485,
+      "sale_to_list_ratio": 1.006,
+      "days_on_market": 67
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2650,
+      "lot_size_ac": 0.36,
+      "condition_grade": "B",
+      "year_built": 1998
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.57
+    }
+  },
+  {
+    "property_id": "RE-10072-IL",
+    "address": "7942 Fullerton Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 255444,
+      "sold_date": "2025-07-17",
+      "original_list_price": 257909,
+      "sale_to_list_ratio": 0.99,
+      "days_on_market": 57,
+      "concessions_paid": 4533
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 961,
+      "lot_size_ac": 0.41,
+      "condition_grade": "D",
+      "year_built": 1979,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.96
+    }
+  },
+  {
+    "property_id": "RE-10073-IL",
+    "address": "1392 Halsted St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 338486,
+      "sold_date": "2025-02-24",
+      "original_list_price": 335279,
+      "sale_to_list_ratio": 1.01,
+      "days_on_market": 13,
+      "concessions_paid": 3847
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 1124,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 1992
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.03
+    }
+  },
+  {
+    "property_id": "RE-10074-IL",
+    "address": "3553 Lincoln Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 935309,
+      "sold_date": "2024-07-20",
+      "original_list_price": 868663,
+      "sale_to_list_ratio": 1.077,
+      "days_on_market": 102,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2758,
+      "lot_size_ac": 0.13,
+      "condition_grade": "B+",
+      "year_built": 1981
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.78
+    }
+  },
+  {
+    "property_id": "RE-10075-IL",
+    "address": "2242 Ashland Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 606925,
+      "sold_date": "2025-09-24",
+      "original_list_price": 593036,
+      "sale_to_list_ratio": 1.023,
+      "days_on_market": 36,
+      "concessions_paid": 4829
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2093,
+      "lot_size_ac": 0.18,
+      "condition_grade": "C",
+      "year_built": 2001,
+      "last_reno_year": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.4
+    }
+  },
+  {
+    "property_id": "RE-10076-IL",
+    "address": "8248 Oak St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 374418,
+      "sold_date": "2025-06-11",
+      "original_list_price": 355545,
+      "sale_to_list_ratio": 1.053,
+      "days_on_market": 25,
+      "competing_offers": 3
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 925,
+      "lot_size_ac": 0.44,
+      "condition_grade": "A-",
+      "year_built": 2009
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.99
+    }
+  },
+  {
+    "property_id": "MLS-10077-IL",
+    "address": "9304 Clark St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1780565,
+      "sold_date": "2024-04-02",
+      "original_list_price": 1778917,
+      "sale_to_list_ratio": 1.001,
+      "days_on_market": 55,
+      "concessions_paid": 5303
+    },
+    "features": {
+      "beds": 6,
+      "baths": 4,
+      "sqft": 3881,
+      "lot_size_ac": 0.18,
+      "condition_grade": "B",
+      "year_built": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.52
+    }
+  },
+  {
+    "property_id": "MLS-10078-IL",
+    "address": "5556 Diversey Pkwy, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 651533,
+      "sold_date": "2025-01-06",
+      "original_list_price": 615955,
+      "sale_to_list_ratio": 1.058,
+      "days_on_market": 26,
+      "competing_offers": 6
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2422,
+      "lot_size_ac": 0.23,
+      "condition_grade": "A",
+      "year_built": 1915
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.56
+    }
+  },
+  {
+    "property_id": "RE-10079-IL",
+    "address": "5527 Maple Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1109746,
+      "sold_date": "2025-06-15",
+      "original_list_price": 1191321,
+      "sale_to_list_ratio": 0.932,
+      "days_on_market": 93
+    },
+    "features": {
+      "beds": 5,
+      "baths": 5,
+      "sqft": 3572,
+      "lot_size_ac": 0.38,
+      "condition_grade": "D",
+      "year_built": 2018
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.17
+    }
+  },
+  {
+    "property_id": "MLS-10080-IL",
+    "address": "4068 Oak St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1458598,
+      "sold_date": "2025-03-02",
+      "original_list_price": 1506549,
+      "sale_to_list_ratio": 0.968,
+      "days_on_market": 5,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 5818,
+      "lot_size_ac": 0.4,
+      "condition_grade": "D",
+      "year_built": 1984
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.48
+    }
+  },
+  {
+    "property_id": "ATTOM-10081-IL",
+    "address": "7631 Fullerton Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 831261,
+      "sold_date": "2025-08-09",
+      "original_list_price": 829568,
+      "sale_to_list_ratio": 1.002,
+      "days_on_market": 60
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2357,
+      "lot_size_ac": 0.44,
+      "condition_grade": "B",
+      "year_built": 1989
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.04
+    }
+  },
+  {
+    "property_id": "MLS-10082-IL",
+    "address": "4580 Halsted St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 522891,
+      "sold_date": "2024-12-16",
+      "original_list_price": 576822,
+      "sale_to_list_ratio": 0.907,
+      "days_on_market": 10
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2976,
+      "lot_size_ac": 0.18,
+      "condition_grade": "D",
+      "year_built": 1982,
+      "last_reno_year": 2020
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.52
+    }
+  },
+  {
+    "property_id": "MLS-10083-IL",
+    "address": "9714 Clark St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 570593,
+      "sold_date": "2024-05-04",
+      "original_list_price": 626254,
+      "sale_to_list_ratio": 0.911,
+      "days_on_market": 56,
+      "concessions_paid": 2894
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2308,
+      "lot_size_ac": null,
+      "condition_grade": "D",
+      "year_built": 2015,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.48
+    }
+  },
+  {
+    "property_id": "RE-10084-IL",
+    "address": "5362 Halsted St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 816447,
+      "sold_date": "2024-09-05",
+      "original_list_price": 809136,
+      "sale_to_list_ratio": 1.009,
+      "days_on_market": 42
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2806,
+      "lot_size_ac": null,
+      "condition_grade": "C+",
+      "year_built": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.16
+    }
+  },
+  {
+    "property_id": "ATTOM-10085-IL",
+    "address": "5589 Halsted St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 549085,
+      "sold_date": "2025-10-23",
+      "original_list_price": 519688,
+      "sale_to_list_ratio": 1.057,
+      "days_on_market": 62,
+      "competing_offers": 4
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1387,
+      "lot_size_ac": 0.47,
+      "condition_grade": "B+",
+      "year_built": 1922,
+      "last_reno_year": 2022
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.05
+    }
+  },
+  {
+    "property_id": "RE-10086-IL",
+    "address": "7107 Fullerton Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1174710,
+      "sold_date": "2025-04-10",
+      "original_list_price": 1193803,
+      "sale_to_list_ratio": 0.984,
+      "days_on_market": 36
+    },
+    "features": {
+      "beds": 6,
+      "baths": 4,
+      "sqft": 3549,
+      "lot_size_ac": 0.34,
+      "condition_grade": "B",
+      "year_built": 2009
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.22
+    }
+  },
+  {
+    "property_id": "ATTOM-10087-IL",
+    "address": "6742 Fullerton Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 286747,
+      "sold_date": "2024-12-01",
+      "original_list_price": 271573,
+      "sale_to_list_ratio": 1.056,
+      "days_on_market": 18,
+      "competing_offers": 2
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 943,
+      "lot_size_ac": 0.25,
+      "condition_grade": "B+",
+      "year_built": 1900,
+      "last_reno_year": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.13
+    }
+  },
+  {
+    "property_id": "MLS-10088-IL",
+    "address": "9861 Maple Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 517592,
+      "sold_date": "2025-12-21",
+      "original_list_price": 545964,
+      "sale_to_list_ratio": 0.948,
+      "days_on_market": 8,
+      "concessions_paid": 4027
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2104,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 2010
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.25
+    }
+  },
+  {
+    "property_id": "ATTOM-10089-IL",
+    "address": "9255 Diversey Pkwy, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 981830,
+      "sold_date": "2025-06-22",
+      "original_list_price": 1124376,
+      "sale_to_list_ratio": 0.873,
+      "days_on_market": 49,
+      "concessions_paid": 3080
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2655,
+      "lot_size_ac": 0.12,
+      "condition_grade": "B+",
+      "year_built": 1964
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.01
+    }
+  },
+  {
+    "property_id": "MLS-10090-IL",
+    "address": "6987 Ashland Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 482688,
+      "sold_date": "2025-11-19",
+      "original_list_price": 440760,
+      "sale_to_list_ratio": 1.095,
+      "days_on_market": 1,
+      "concessions_paid": 3474
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1506,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 1977
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.27
+    }
+  },
+  {
+    "property_id": "MLS-10091-IL",
+    "address": "9020 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1483680,
+      "sold_date": "2025-01-26",
+      "original_list_price": 1378050,
+      "sale_to_list_ratio": 1.077,
+      "days_on_market": 104
+    },
+    "features": {
+      "beds": 4,
+      "baths": 5,
+      "sqft": 4538,
+      "lot_size_ac": 0.1,
+      "condition_grade": "A-",
+      "year_built": 1969
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.79
+    }
+  },
+  {
+    "property_id": "ATTOM-10092-IL",
+    "address": "4109 Oak St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 470572,
+      "sold_date": "2025-06-28",
+      "original_list_price": 492139,
+      "sale_to_list_ratio": 0.956,
+      "days_on_market": 81
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 1154,
+      "lot_size_ac": null,
+      "condition_grade": "A-",
+      "year_built": 2009
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.5
+    }
+  },
+  {
+    "property_id": "MLS-10093-IL",
+    "address": "2969 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 249214,
+      "sold_date": "2025-02-15",
+      "original_list_price": 283916,
+      "sale_to_list_ratio": 0.878,
+      "days_on_market": 24
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 857,
+      "lot_size_ac": 0.16,
+      "condition_grade": "B",
+      "year_built": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.57
+    }
+  },
+  {
+    "property_id": "MLS-10094-IL",
+    "address": "8783 State St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 984534,
+      "sold_date": "2025-07-23",
+      "original_list_price": 1030467,
+      "sale_to_list_ratio": 0.955,
+      "days_on_market": 89
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2817,
+      "lot_size_ac": 0.12,
+      "condition_grade": "C",
+      "year_built": 1986
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.58
+    }
+  },
+  {
+    "property_id": "RE-10095-IL",
+    "address": "3522 Ashland Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 426969,
+      "sold_date": "2025-02-01",
+      "original_list_price": 464742,
+      "sale_to_list_ratio": 0.919,
+      "days_on_market": 64
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1661,
+      "lot_size_ac": 0.17,
+      "condition_grade": "C+",
+      "year_built": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.93
+    }
+  },
+  {
+    "property_id": "RE-10096-IL",
+    "address": "3428 Ashland Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 292787,
+      "sold_date": "2024-11-06",
+      "original_list_price": 286460,
+      "sale_to_list_ratio": 1.022,
+      "days_on_market": 42,
+      "concessions_paid": 5846
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 920,
+      "lot_size_ac": 0.3,
+      "condition_grade": "B+",
+      "year_built": 1998
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.89
+    }
+  },
+  {
+    "property_id": "MLS-10097-IL",
+    "address": "8137 Diversey Pkwy, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1223760,
+      "sold_date": "2024-11-16",
+      "original_list_price": 1171213,
+      "sale_to_list_ratio": 1.045,
+      "days_on_market": 19
+    },
+    "features": {
+      "beds": 4,
+      "baths": 4,
+      "sqft": 3597,
+      "lot_size_ac": 0.18,
+      "condition_grade": "B",
+      "year_built": 1994,
+      "last_reno_year": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.15
+    }
+  },
+  {
+    "property_id": "RE-10098-IL",
+    "address": "8093 Oak St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 804346,
+      "sold_date": "2024-06-21",
+      "original_list_price": 773961,
+      "sale_to_list_ratio": 1.039,
+      "days_on_market": 47
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2500,
+      "lot_size_ac": 0.39,
+      "condition_grade": "C+",
+      "year_built": 2002
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.44
+    }
+  },
+  {
+    "property_id": "RE-10099-IL",
+    "address": "6752 Diversey Pkwy, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 319923,
+      "sold_date": "2024-01-07",
+      "original_list_price": 320125,
+      "sale_to_list_ratio": 0.999,
+      "days_on_market": 60
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1342,
+      "lot_size_ac": 0.1,
+      "condition_grade": "C+",
+      "year_built": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.76
+    }
+  },
+  {
+    "property_id": "ATTOM-10100-IL",
+    "address": "8753 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 610799,
+      "sold_date": "2025-08-01",
+      "original_list_price": 606008,
+      "sale_to_list_ratio": 1.008,
+      "days_on_market": 76
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1500,
+      "lot_size_ac": 0.08,
+      "condition_grade": "B",
+      "year_built": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.76
+    }
+  },
+  {
+    "property_id": "MLS-10101-IL",
+    "address": "6625 Maple Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 897326,
+      "sold_date": "2024-08-23",
+      "original_list_price": 821364,
+      "sale_to_list_ratio": 1.092,
+      "days_on_market": 59
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2660,
+      "lot_size_ac": 0.45,
+      "condition_grade": "C",
+      "year_built": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.17
+    }
+  },
+  {
+    "property_id": "RE-10102-IL",
+    "address": "585 Halsted St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 579403,
+      "sold_date": "2024-11-02",
+      "original_list_price": 649659,
+      "sale_to_list_ratio": 0.892,
+      "days_on_market": 67
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2296,
+      "lot_size_ac": 0.28,
+      "condition_grade": "C+",
+      "year_built": 2010
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.83
+    }
+  },
+  {
+    "property_id": "ATTOM-10103-IL",
+    "address": "5150 Diversey Pkwy, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 980153,
+      "sold_date": "2026-03-13",
+      "original_list_price": 956581,
+      "sale_to_list_ratio": 1.025,
+      "days_on_market": 84
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2268,
+      "lot_size_ac": 0.41,
+      "condition_grade": "B",
+      "year_built": 1997
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.05
+    }
+  },
+  {
+    "property_id": "ATTOM-10104-IL",
+    "address": "9470 Fullerton Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 303341,
+      "sold_date": "2025-01-03",
+      "original_list_price": 308273,
+      "sale_to_list_ratio": 0.984,
+      "days_on_market": 53
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1241,
+      "lot_size_ac": 0.32,
+      "condition_grade": "B+",
+      "year_built": 2008
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.01
+    }
+  },
+  {
+    "property_id": "RE-10105-IL",
+    "address": "5543 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 480820,
+      "sold_date": "2024-06-22",
+      "original_list_price": 481932,
+      "sale_to_list_ratio": 0.998,
+      "days_on_market": 16,
+      "competing_offers": 2,
+      "concessions_paid": 2055
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1074,
+      "lot_size_ac": 0.27,
+      "condition_grade": "B",
+      "year_built": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.37
+    }
+  },
+  {
+    "property_id": "RE-10106-IL",
+    "address": "6080 Maple Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1965794,
+      "sold_date": "2024-12-03",
+      "original_list_price": 1864283,
+      "sale_to_list_ratio": 1.054,
+      "days_on_market": 25
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 5666,
+      "lot_size_ac": 0.48,
+      "condition_grade": "B+",
+      "year_built": 2012
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.41
+    }
+  },
+  {
+    "property_id": "RE-10107-IL",
+    "address": "1311 Diversey Pkwy, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 813568,
+      "sold_date": "2025-07-31",
+      "original_list_price": 904840,
+      "sale_to_list_ratio": 0.899,
+      "days_on_market": 2,
+      "competing_offers": 7,
+      "concessions_paid": 5466
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2896,
+      "lot_size_ac": 0.25,
+      "condition_grade": "C+",
+      "year_built": 1959,
+      "last_reno_year": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.3
+    }
+  },
+  {
+    "property_id": "RE-10108-IL",
+    "address": "1835 Oak St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1048937,
+      "sold_date": "2025-09-04",
+      "original_list_price": 1011500,
+      "sale_to_list_ratio": 1.037,
+      "days_on_market": 89
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2916,
+      "lot_size_ac": 0.1,
+      "condition_grade": "C+",
+      "year_built": 1987,
+      "last_reno_year": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.23
+    }
+  },
+  {
+    "property_id": "MLS-10109-IL",
+    "address": "8012 Ashland Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 953038,
+      "sold_date": "2024-04-10",
+      "original_list_price": 875974,
+      "sale_to_list_ratio": 1.088,
+      "days_on_market": 68,
+      "concessions_paid": 3694
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2642,
+      "lot_size_ac": 0.21,
+      "condition_grade": "B+",
+      "year_built": 1988,
+      "last_reno_year": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.29
+    }
+  },
+  {
+    "property_id": "MLS-10110-IL",
+    "address": "3122 State St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 961188,
+      "sold_date": "2025-05-02",
+      "original_list_price": 979621,
+      "sale_to_list_ratio": 0.981,
+      "days_on_market": 63,
+      "competing_offers": 6
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2153,
+      "lot_size_ac": 0.34,
+      "condition_grade": "A-",
+      "year_built": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.86
+    }
+  },
+  {
+    "property_id": "MLS-10111-IL",
+    "address": "6467 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 702551,
+      "sold_date": "2025-10-17",
+      "original_list_price": 733376,
+      "sale_to_list_ratio": 0.958,
+      "days_on_market": 59,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1904,
+      "lot_size_ac": 0.31,
+      "condition_grade": "B+",
+      "year_built": 2012
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.81
+    }
+  },
+  {
+    "property_id": "ATTOM-10112-IL",
+    "address": "8073 Fullerton Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1907903,
+      "sold_date": "2025-08-24",
+      "original_list_price": 1878109,
+      "sale_to_list_ratio": 1.016,
+      "days_on_market": 64,
+      "competing_offers": 5
+    },
+    "features": {
+      "beds": 4,
+      "baths": 5,
+      "sqft": 5528,
+      "lot_size_ac": 0.35,
+      "condition_grade": "C+",
+      "year_built": 1985
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.47
+    }
+  },
+  {
+    "property_id": "ATTOM-10113-IL",
+    "address": "9363 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 454564,
+      "sold_date": "2025-12-11",
+      "original_list_price": 464788,
+      "sale_to_list_ratio": 0.978,
+      "days_on_market": 32
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1787,
+      "lot_size_ac": 0.27,
+      "condition_grade": "C+",
+      "year_built": 1906,
+      "last_reno_year": 2022
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.9
+    }
+  },
+  {
+    "property_id": "MLS-10114-IL",
+    "address": "4155 Halsted St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 267747,
+      "sold_date": "2026-02-18",
+      "original_list_price": 297882,
+      "sale_to_list_ratio": 0.899,
+      "days_on_market": 31
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1350,
+      "lot_size_ac": 0.3,
+      "condition_grade": "C",
+      "year_built": 1994,
+      "last_reno_year": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.19
+    }
+  },
+  {
+    "property_id": "MLS-10115-IL",
+    "address": "8927 State St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 913597,
+      "sold_date": "2024-02-03",
+      "original_list_price": 998821,
+      "sale_to_list_ratio": 0.915,
+      "days_on_market": 9
+    },
+    "features": {
+      "beds": 5,
+      "baths": 3,
+      "sqft": 3356,
+      "lot_size_ac": 0.44,
+      "condition_grade": "B",
+      "year_built": 1983
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.44
+    }
+  },
+  {
+    "property_id": "RE-10116-IL",
+    "address": "6886 Lincoln Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 289211,
+      "sold_date": "2024-11-27",
+      "original_list_price": 302065,
+      "sale_to_list_ratio": 0.957,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1326,
+      "lot_size_ac": 0.44,
+      "condition_grade": "C",
+      "year_built": 1952,
+      "last_reno_year": 2018
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.12
+    }
+  },
+  {
+    "property_id": "ATTOM-10117-IL",
+    "address": "8856 Lincoln Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1008657,
+      "sold_date": "2025-04-07",
+      "original_list_price": 1130430,
+      "sale_to_list_ratio": 0.892,
+      "days_on_market": 15,
+      "concessions_paid": 5755
+    },
+    "features": {
+      "beds": 5,
+      "baths": 5,
+      "sqft": 3381,
+      "lot_size_ac": null,
+      "condition_grade": "C",
+      "year_built": 1998
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.09
+    }
+  },
+  {
+    "property_id": "ATTOM-10118-IL",
+    "address": "7109 Clark St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 742693,
+      "sold_date": "2024-08-11",
+      "original_list_price": 769861,
+      "sale_to_list_ratio": 0.965,
+      "days_on_market": 4,
+      "competing_offers": 3
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2161,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1980
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.2
+    }
+  },
+  {
+    "property_id": "MLS-10119-IL",
+    "address": "7391 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 529273,
+      "sold_date": "2025-12-06",
+      "original_list_price": 551177,
+      "sale_to_list_ratio": 0.96,
+      "days_on_market": 50,
+      "competing_offers": 3
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2061,
+      "lot_size_ac": 0.07,
+      "condition_grade": "C+",
+      "year_built": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.34
+    }
+  },
+  {
+    "property_id": "MLS-10120-IL",
+    "address": "238 State St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1216641,
+      "sold_date": "2024-01-09",
+      "original_list_price": 1163817,
+      "sale_to_list_ratio": 1.045,
+      "days_on_market": 45,
+      "concessions_paid": 6345
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 4729,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 1983,
+      "last_reno_year": 2021
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.63
+    }
+  },
+  {
+    "property_id": "RE-10121-IL",
+    "address": "539 Halsted St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 495593,
+      "sold_date": "2025-03-26",
+      "original_list_price": 511354,
+      "sale_to_list_ratio": 0.969,
+      "days_on_market": 60,
+      "concessions_paid": 6533
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 1810,
+      "lot_size_ac": null,
+      "condition_grade": "C+",
+      "year_built": 1911
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.03
+    }
+  },
+  {
+    "property_id": "ATTOM-10122-IL",
+    "address": "6437 Lincoln Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 252215,
+      "sold_date": "2024-07-29",
+      "original_list_price": 276288,
+      "sale_to_list_ratio": 0.913,
+      "days_on_market": 45
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1201,
+      "lot_size_ac": null,
+      "condition_grade": "D",
+      "year_built": 2001
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.32
+    }
+  },
+  {
+    "property_id": "MLS-10123-IL",
+    "address": "8891 Fullerton Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 490152,
+      "sold_date": "2025-01-09",
+      "original_list_price": 487923,
+      "sale_to_list_ratio": 1.005,
+      "days_on_market": 33
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1649,
+      "lot_size_ac": null,
+      "condition_grade": "A",
+      "year_built": 2022
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.98
+    }
+  },
+  {
+    "property_id": "ATTOM-10124-IL",
+    "address": "307 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 780504,
+      "sold_date": "2025-09-22",
+      "original_list_price": 805184,
+      "sale_to_list_ratio": 0.969,
+      "days_on_market": 58,
+      "concessions_paid": 3438
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2547,
+      "lot_size_ac": 0.19,
+      "condition_grade": "B+",
+      "year_built": 1988
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.19
+    }
+  },
+  {
+    "property_id": "MLS-10125-IL",
+    "address": "1362 Diversey Pkwy, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1815241,
+      "sold_date": "2025-12-19",
+      "original_list_price": 1724737,
+      "sale_to_list_ratio": 1.052,
+      "days_on_market": 11
+    },
+    "features": {
+      "beds": 6,
+      "baths": 5,
+      "sqft": 5142,
+      "lot_size_ac": 0.38,
+      "condition_grade": "A-",
+      "year_built": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.34
+    }
+  },
+  {
+    "property_id": "MLS-10126-IL",
+    "address": "6970 Clark St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 873317,
+      "sold_date": "2025-04-11",
+      "original_list_price": 867048,
+      "sale_to_list_ratio": 1.007,
+      "days_on_market": 15,
+      "competing_offers": 2
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2660,
+      "lot_size_ac": 0.15,
+      "condition_grade": "C+",
+      "year_built": 2009
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.45
+    }
+  },
+  {
+    "property_id": "MLS-10127-IL",
+    "address": "4074 Diversey Pkwy, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 663124,
+      "sold_date": "2024-11-25",
+      "original_list_price": 724147,
+      "sale_to_list_ratio": 0.916,
+      "days_on_market": 73,
+      "concessions_paid": 4489
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2055,
+      "lot_size_ac": 0.48,
+      "condition_grade": "B+",
+      "year_built": 2007,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.69
+    }
+  },
+  {
+    "property_id": "RE-10128-IL",
+    "address": "1803 Clark St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 789875,
+      "sold_date": "2025-01-12",
+      "original_list_price": 856675,
+      "sale_to_list_ratio": 0.922,
+      "days_on_market": 19
+    },
+    "features": {
+      "beds": 6,
+      "baths": 5,
+      "sqft": 3800,
+      "lot_size_ac": 0.06,
+      "condition_grade": "B",
+      "year_built": 1983
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.91
+    }
+  },
+  {
+    "property_id": "ATTOM-10129-IL",
+    "address": "7226 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1319615,
+      "sold_date": "2025-06-26",
+      "original_list_price": 1224929,
+      "sale_to_list_ratio": 1.077,
+      "days_on_market": 58,
+      "concessions_paid": 6651
+    },
+    "features": {
+      "beds": 6,
+      "baths": 4,
+      "sqft": 3583,
+      "lot_size_ac": 0.37,
+      "condition_grade": "C",
+      "year_built": 2022
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.42
+    }
+  },
+  {
+    "property_id": "RE-10130-IL",
+    "address": "5151 Diversey Pkwy, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 791275,
+      "sold_date": "2024-08-30",
+      "original_list_price": 795297,
+      "sale_to_list_ratio": 0.995,
+      "days_on_market": 39
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2304,
+      "lot_size_ac": 0.11,
+      "condition_grade": "B+",
+      "year_built": 2014
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.73
+    }
+  },
+  {
+    "property_id": "MLS-10131-IL",
+    "address": "9113 Clark St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1137422,
+      "sold_date": "2024-09-28",
+      "original_list_price": 1172489,
+      "sale_to_list_ratio": 0.97,
+      "days_on_market": 28,
+      "competing_offers": 5
+    },
+    "features": {
+      "beds": 6,
+      "baths": 5,
+      "sqft": 4246,
+      "lot_size_ac": 0.12,
+      "condition_grade": "C",
+      "year_built": 1982
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.1
+    }
+  },
+  {
+    "property_id": "ATTOM-10132-IL",
+    "address": "1606 Ashland Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 659906,
+      "sold_date": "2024-04-06",
+      "original_list_price": 711202,
+      "sale_to_list_ratio": 0.928,
+      "days_on_market": 47,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1748,
+      "lot_size_ac": 0.22,
+      "condition_grade": "A-",
+      "year_built": 1928
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.66
+    }
+  },
+  {
+    "property_id": "MLS-10133-IL",
+    "address": "7948 Oak St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 487665,
+      "sold_date": "2024-05-05",
+      "original_list_price": 471779,
+      "sale_to_list_ratio": 1.034,
+      "days_on_market": 13
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1387,
+      "lot_size_ac": 0.21,
+      "condition_grade": "C+",
+      "year_built": 1988
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.42
+    }
+  },
+  {
+    "property_id": "MLS-10134-IL",
+    "address": "3688 Oak St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 956202,
+      "sold_date": "2024-03-30",
+      "original_list_price": 929672,
+      "sale_to_list_ratio": 1.029,
+      "days_on_market": 75,
+      "concessions_paid": 4612
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2816,
+      "lot_size_ac": 0.5,
+      "condition_grade": "B+",
+      "year_built": 2001
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.54
+    }
+  },
+  {
+    "property_id": "MLS-10135-IL",
+    "address": "5978 Oak St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1844510,
+      "sold_date": "2026-03-08",
+      "original_list_price": 1847300,
+      "sale_to_list_ratio": 0.998,
+      "days_on_market": 102,
+      "concessions_paid": 3423
+    },
+    "features": {
+      "beds": 5,
+      "baths": 5,
+      "sqft": 5168,
+      "lot_size_ac": 0.17,
+      "condition_grade": "A",
+      "year_built": 1920
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.29
+    }
+  },
+  {
+    "property_id": "RE-10136-IL",
+    "address": "1075 Oak St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 668747,
+      "sold_date": "2025-12-21",
+      "original_list_price": 714828,
+      "sale_to_list_ratio": 0.936,
+      "days_on_market": 48
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 2653,
+      "lot_size_ac": 0.08,
+      "condition_grade": "B+",
+      "year_built": 1981
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.08
+    }
+  },
+  {
+    "property_id": "ATTOM-10137-IL",
+    "address": "9307 Ashland Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 295703,
+      "sold_date": "2024-05-31",
+      "original_list_price": 295953,
+      "sale_to_list_ratio": 0.999,
+      "days_on_market": 58
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 913,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 2018
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.09
+    }
+  },
+  {
+    "property_id": "ATTOM-10138-IL",
+    "address": "8229 State St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 776027,
+      "sold_date": "2024-08-16",
+      "original_list_price": 802545,
+      "sale_to_list_ratio": 0.967,
+      "days_on_market": 22
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2910,
+      "lot_size_ac": null,
+      "condition_grade": "C",
+      "year_built": 2006
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.1
+    }
+  },
+  {
+    "property_id": "MLS-10139-IL",
+    "address": "6249 Maple Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1100042,
+      "sold_date": "2024-12-05",
+      "original_list_price": 1066700,
+      "sale_to_list_ratio": 1.031,
+      "days_on_market": 54,
+      "concessions_paid": 5391
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 3687,
+      "lot_size_ac": 0.14,
+      "condition_grade": "B",
+      "year_built": 1942
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.21
+    }
+  },
+  {
+    "property_id": "MLS-10140-IL",
+    "address": "8009 Oak St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 579131,
+      "sold_date": "2025-05-05",
+      "original_list_price": 577201,
+      "sale_to_list_ratio": 1.003,
+      "days_on_market": 70
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1833,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1977,
+      "last_reno_year": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.48
+    }
+  },
+  {
+    "property_id": "ATTOM-10141-IL",
+    "address": "4925 Diversey Pkwy, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 607358,
+      "sold_date": "2025-03-17",
+      "original_list_price": 594777,
+      "sale_to_list_ratio": 1.021,
+      "days_on_market": 61
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1609,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 2012
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.44
+    }
+  },
+  {
+    "property_id": "RE-10142-IL",
+    "address": "3806 Halsted St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 307852,
+      "sold_date": "2024-07-23",
+      "original_list_price": 324311,
+      "sale_to_list_ratio": 0.949,
+      "days_on_market": 39,
+      "concessions_paid": 5651
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 1098,
+      "lot_size_ac": 0.27,
+      "condition_grade": "C",
+      "year_built": 1939
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.93
+    }
+  },
+  {
+    "property_id": "RE-10143-IL",
+    "address": "4996 Maple Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 476994,
+      "sold_date": "2025-07-31",
+      "original_list_price": 511434,
+      "sale_to_list_ratio": 0.933,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1698,
+      "lot_size_ac": 0.32,
+      "condition_grade": "D",
+      "year_built": 1952
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.17
+    }
+  },
+  {
+    "property_id": "MLS-10144-IL",
+    "address": "4325 Ashland Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1543565,
+      "sold_date": "2025-02-08",
+      "original_list_price": 1615010,
+      "sale_to_list_ratio": 0.956,
+      "days_on_market": 76
+    },
+    "features": {
+      "beds": 6,
+      "baths": 5,
+      "sqft": 5340,
+      "lot_size_ac": 0.49,
+      "condition_grade": "B+",
+      "year_built": 2020
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.43
+    }
+  },
+  {
+    "property_id": "RE-10145-IL",
+    "address": "6375 Diversey Pkwy, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 707983,
+      "sold_date": "2026-01-14",
+      "original_list_price": 682535,
+      "sale_to_list_ratio": 1.037,
+      "days_on_market": 27,
+      "competing_offers": 4
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2630,
+      "lot_size_ac": 0.1,
+      "condition_grade": "C",
+      "year_built": 2005,
+      "last_reno_year": 2025
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.61
+    }
+  },
+  {
+    "property_id": "MLS-10146-IL",
+    "address": "1709 Clark St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 362189,
+      "sold_date": "2025-08-08",
+      "original_list_price": 371894,
+      "sale_to_list_ratio": 0.974,
+      "days_on_market": 55
+    },
+    "features": {
+      "beds": 1,
+      "baths": 2,
+      "sqft": 1212,
+      "lot_size_ac": 0.39,
+      "condition_grade": "C+",
+      "year_built": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.06
+    }
+  },
+  {
+    "property_id": "ATTOM-10147-IL",
+    "address": "8689 Oak St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 699417,
+      "sold_date": "2024-05-17",
+      "original_list_price": 709437,
+      "sale_to_list_ratio": 0.986,
+      "days_on_market": 94,
+      "competing_offers": 7
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2157,
+      "lot_size_ac": 0.46,
+      "condition_grade": "B+",
+      "year_built": 1978
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.87
+    }
+  },
+  {
+    "property_id": "MLS-10148-IL",
+    "address": "9133 Ashland Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 282227,
+      "sold_date": "2024-06-26",
+      "original_list_price": 288661,
+      "sale_to_list_ratio": 0.978,
+      "days_on_market": 73,
+      "concessions_paid": 5887
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 859,
+      "lot_size_ac": 0.17,
+      "condition_grade": "B+",
+      "year_built": 2005
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.7
+    }
+  },
+  {
+    "property_id": "ATTOM-10149-IL",
+    "address": "7867 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 208479,
+      "sold_date": "2024-12-18",
+      "original_list_price": 226641,
+      "sale_to_list_ratio": 0.92,
+      "days_on_market": 39
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 892,
+      "lot_size_ac": null,
+      "condition_grade": "C+",
+      "year_built": 2011
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.53
+    }
+  },
+  {
+    "property_id": "MLS-10150-IL",
+    "address": "4731 Halsted St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 336860,
+      "sold_date": "2025-10-24",
+      "original_list_price": 345582,
+      "sale_to_list_ratio": 0.975,
+      "days_on_market": 43
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1058,
+      "lot_size_ac": null,
+      "condition_grade": "C",
+      "year_built": 1988,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.43
+    }
+  },
+  {
+    "property_id": "ATTOM-10151-IL",
+    "address": "8248 Halsted St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 518067,
+      "sold_date": "2025-12-01",
+      "original_list_price": 483066,
+      "sale_to_list_ratio": 1.072,
+      "days_on_market": 65
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2066,
+      "lot_size_ac": 0.13,
+      "condition_grade": "C",
+      "year_built": 1933
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.13
+    }
+  },
+  {
+    "property_id": "MLS-10152-IL",
+    "address": "9259 State St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 887882,
+      "sold_date": "2024-09-22",
+      "original_list_price": 858628,
+      "sale_to_list_ratio": 1.034,
+      "days_on_market": 1,
+      "concessions_paid": 2799
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2694,
+      "lot_size_ac": 0.46,
+      "condition_grade": "C",
+      "year_built": 2013
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.09
+    }
+  },
+  {
+    "property_id": "ATTOM-10153-IL",
+    "address": "6353 Fullerton Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 302569,
+      "sold_date": "2025-11-27",
+      "original_list_price": 289005,
+      "sale_to_list_ratio": 1.047,
+      "days_on_market": 59
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1028,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1986
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.0
+    }
+  },
+  {
+    "property_id": "ATTOM-10154-IL",
+    "address": "9541 State St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1095095,
+      "sold_date": "2024-11-01",
+      "original_list_price": 1074367,
+      "sale_to_list_ratio": 1.019,
+      "days_on_market": 58,
+      "concessions_paid": 2475
+    },
+    "features": {
+      "beds": 4,
+      "baths": 4,
+      "sqft": 3562,
+      "lot_size_ac": 0.11,
+      "condition_grade": "C",
+      "year_built": 1994
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.78
+    }
+  },
+  {
+    "property_id": "RE-10155-IL",
+    "address": "2212 Maple Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 840819,
+      "sold_date": "2025-05-16",
+      "original_list_price": 915401,
+      "sale_to_list_ratio": 0.919,
+      "days_on_market": 47,
+      "concessions_paid": 4820
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2379,
+      "lot_size_ac": 0.38,
+      "condition_grade": "A",
+      "year_built": 1949
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.37
+    }
+  },
+  {
+    "property_id": "ATTOM-10156-IL",
+    "address": "3842 Clark St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 224812,
+      "sold_date": "2025-01-27",
+      "original_list_price": 203599,
+      "sale_to_list_ratio": 1.104,
+      "days_on_market": 45
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 846,
+      "lot_size_ac": 0.25,
+      "condition_grade": "B",
+      "year_built": 1992
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.28
+    }
+  },
+  {
+    "property_id": "RE-10157-IL",
+    "address": "7872 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 359371,
+      "sold_date": "2026-01-14",
+      "original_list_price": 369999,
+      "sale_to_list_ratio": 0.971,
+      "days_on_market": 49,
+      "competing_offers": 5,
+      "concessions_paid": 6483
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1316,
+      "lot_size_ac": 0.4,
+      "condition_grade": "B",
+      "year_built": 2007
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.08
+    }
+  },
+  {
+    "property_id": "RE-10158-IL",
+    "address": "6813 Halsted St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1203925,
+      "sold_date": "2024-07-29",
+      "original_list_price": 1129607,
+      "sale_to_list_ratio": 1.066,
+      "days_on_market": 4
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2856,
+      "lot_size_ac": 0.28,
+      "condition_grade": "A",
+      "year_built": 1998
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.29
+    }
+  },
+  {
+    "property_id": "RE-10159-IL",
+    "address": "7706 Oak St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1911395,
+      "sold_date": "2024-06-13",
+      "original_list_price": 1916171,
+      "sale_to_list_ratio": 0.998,
+      "days_on_market": 42,
+      "concessions_paid": 4425
+    },
+    "features": {
+      "beds": 5,
+      "baths": 4,
+      "sqft": 5818,
+      "lot_size_ac": 0.43,
+      "condition_grade": "C+",
+      "year_built": 2006
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.52
+    }
+  },
+  {
+    "property_id": "RE-10160-IL",
+    "address": "7579 Halsted St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1958456,
+      "sold_date": "2024-04-12",
+      "original_list_price": 1917633,
+      "sale_to_list_ratio": 1.021,
+      "days_on_market": 1,
+      "competing_offers": 4,
+      "concessions_paid": 5283
+    },
+    "features": {
+      "beds": 6,
+      "baths": 4,
+      "sqft": 4475,
+      "lot_size_ac": 0.05,
+      "condition_grade": "A",
+      "year_built": 1979,
+      "last_reno_year": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.29
+    }
+  },
+  {
+    "property_id": "MLS-10161-IL",
+    "address": "572 State St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 481371,
+      "sold_date": "2025-01-29",
+      "original_list_price": 459878,
+      "sale_to_list_ratio": 1.047,
+      "days_on_market": 15
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1841,
+      "lot_size_ac": null,
+      "condition_grade": "D",
+      "year_built": 1977
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.32
+    }
+  },
+  {
+    "property_id": "MLS-10162-IL",
+    "address": "994 Oak St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 687342,
+      "sold_date": "2025-05-09",
+      "original_list_price": 660383,
+      "sale_to_list_ratio": 1.041,
+      "days_on_market": 69,
+      "competing_offers": 4
+    },
+    "features": {
+      "beds": 2,
+      "baths": 3,
+      "sqft": 1594,
+      "lot_size_ac": 0.49,
+      "condition_grade": "C+",
+      "year_built": 1976
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.27
+    }
+  },
+  {
+    "property_id": "RE-10163-IL",
+    "address": "2044 Diversey Pkwy, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 792006,
+      "sold_date": "2025-10-20",
+      "original_list_price": 801389,
+      "sale_to_list_ratio": 0.988,
+      "days_on_market": 33
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2515,
+      "lot_size_ac": 0.07,
+      "condition_grade": "B",
+      "year_built": 1986,
+      "last_reno_year": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.53
+    }
+  },
+  {
+    "property_id": "MLS-10164-IL",
+    "address": "7514 Maple Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 693442,
+      "sold_date": "2026-02-02",
+      "original_list_price": 678537,
+      "sale_to_list_ratio": 1.022,
+      "days_on_market": 1,
+      "concessions_paid": 6914
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2641,
+      "lot_size_ac": 0.34,
+      "condition_grade": "C+",
+      "year_built": 1938
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.71
+    }
+  },
+  {
+    "property_id": "ATTOM-10165-IL",
+    "address": "5636 Maple Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1002753,
+      "sold_date": "2024-04-09",
+      "original_list_price": 980430,
+      "sale_to_list_ratio": 1.023,
+      "days_on_market": 71
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2797,
+      "lot_size_ac": 0.11,
+      "condition_grade": "C",
+      "year_built": 1977
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.35
+    }
+  },
+  {
+    "property_id": "ATTOM-10166-IL",
+    "address": "2203 Maple Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 890651,
+      "sold_date": "2026-02-14",
+      "original_list_price": 925331,
+      "sale_to_list_ratio": 0.963,
+      "days_on_market": 91
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 2876,
+      "lot_size_ac": 0.48,
+      "condition_grade": "B+",
+      "year_built": 1990,
+      "last_reno_year": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.89
+    }
+  },
+  {
+    "property_id": "RE-10167-IL",
+    "address": "9169 Clark St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 434021,
+      "sold_date": "2025-01-31",
+      "original_list_price": 439377,
+      "sale_to_list_ratio": 0.988,
+      "days_on_market": 29
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2287,
+      "lot_size_ac": null,
+      "condition_grade": "D",
+      "year_built": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.98
+    }
+  },
+  {
+    "property_id": "ATTOM-10168-IL",
+    "address": "8664 Maple Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 361940,
+      "sold_date": "2024-07-24",
+      "original_list_price": 376459,
+      "sale_to_list_ratio": 0.961,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1153,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 1998
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.85
+    }
+  },
+  {
+    "property_id": "MLS-10169-IL",
+    "address": "6471 Clark St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 637932,
+      "sold_date": "2024-01-26",
+      "original_list_price": 644960,
+      "sale_to_list_ratio": 0.989,
+      "days_on_market": 32
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1909,
+      "lot_size_ac": 0.36,
+      "condition_grade": "A",
+      "year_built": 1932,
+      "last_reno_year": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.1
+    }
+  },
+  {
+    "property_id": "MLS-10170-IL",
+    "address": "3318 Clark St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 293292,
+      "sold_date": "2025-06-07",
+      "original_list_price": 280019,
+      "sale_to_list_ratio": 1.047,
+      "days_on_market": 1,
+      "concessions_paid": 5012
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1190,
+      "lot_size_ac": null,
+      "condition_grade": "D",
+      "year_built": 1940,
+      "last_reno_year": 2020
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.36
+    }
+  },
+  {
+    "property_id": "MLS-10171-IL",
+    "address": "5034 Diversey Pkwy, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 631682,
+      "sold_date": "2024-10-28",
+      "original_list_price": 645504,
+      "sale_to_list_ratio": 0.979,
+      "days_on_market": 71,
+      "concessions_paid": 3259
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1882,
+      "lot_size_ac": 0.11,
+      "condition_grade": "B",
+      "year_built": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.9
+    }
+  },
+  {
+    "property_id": "MLS-10172-IL",
+    "address": "244 Maple Ave, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 373015,
+      "sold_date": "2026-03-19",
+      "original_list_price": 360454,
+      "sale_to_list_ratio": 1.035,
+      "days_on_market": 15,
+      "concessions_paid": 6345
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1125,
+      "lot_size_ac": 0.29,
+      "condition_grade": "B",
+      "year_built": 2001
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.72
+    }
+  },
+  {
+    "property_id": "MLS-10173-IL",
+    "address": "3254 Ashland Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1627462,
+      "sold_date": "2025-11-15",
+      "original_list_price": 1536988,
+      "sale_to_list_ratio": 1.059,
+      "days_on_market": 15
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 5513,
+      "lot_size_ac": 0.22,
+      "condition_grade": "B+",
+      "year_built": 1941
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.12
+    }
+  },
+  {
+    "property_id": "ATTOM-10174-IL",
+    "address": "4227 Fullerton Ave, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 542545,
+      "sold_date": "2025-06-10",
+      "original_list_price": 571481,
+      "sale_to_list_ratio": 0.949,
+      "days_on_market": 63,
+      "concessions_paid": 2444
+    },
+    "features": {
+      "beds": 1,
+      "baths": 1,
+      "sqft": 1350,
+      "lot_size_ac": 0.43,
+      "condition_grade": "C",
+      "year_built": 2012,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.62
+    }
+  },
+  {
+    "property_id": "RE-10175-IL",
+    "address": "1517 Halsted St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1435681,
+      "sold_date": "2024-03-13",
+      "original_list_price": 1461276,
+      "sale_to_list_ratio": 0.982,
+      "days_on_market": 5,
+      "concessions_paid": 6119
+    },
+    "features": {
+      "beds": 5,
+      "baths": 4,
+      "sqft": 4669,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 1989
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 7.15
+    }
+  },
+  {
+    "property_id": "ATTOM-10176-IL",
+    "address": "9483 Lincoln Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 829713,
+      "sold_date": "2026-02-22",
+      "original_list_price": 865809,
+      "sale_to_list_ratio": 0.958,
+      "days_on_market": 1,
+      "competing_offers": 6,
+      "concessions_paid": 2342
+    },
+    "features": {
+      "beds": 5,
+      "baths": 3,
+      "sqft": 3126,
+      "lot_size_ac": 0.48,
+      "condition_grade": "C",
+      "year_built": 1980,
+      "last_reno_year": 2026
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.52
+    }
+  },
+  {
+    "property_id": "RE-10177-IL",
+    "address": "1203 Halsted St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 993700,
+      "sold_date": "2025-07-04",
+      "original_list_price": 956863,
+      "sale_to_list_ratio": 1.038,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2986,
+      "lot_size_ac": 0.12,
+      "condition_grade": "C+",
+      "year_built": 1996,
+      "last_reno_year": 2020
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.96
+    }
+  },
+  {
+    "property_id": "RE-10178-IL",
+    "address": "7117 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 787144,
+      "sold_date": "2024-04-10",
+      "original_list_price": 861123,
+      "sale_to_list_ratio": 0.914,
+      "days_on_market": 57
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2177,
+      "lot_size_ac": null,
+      "condition_grade": "A",
+      "year_built": 1983
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.45
+    }
+  },
+  {
+    "property_id": "MLS-10179-IL",
+    "address": "3318 Halsted St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 276589,
+      "sold_date": "2024-01-05",
+      "original_list_price": 288604,
+      "sale_to_list_ratio": 0.958,
+      "days_on_market": 80,
+      "competing_offers": 6,
+      "concessions_paid": 4298
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1456,
+      "lot_size_ac": 0.45,
+      "condition_grade": "C",
+      "year_built": 1917
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.9
+    }
+  },
+  {
+    "property_id": "MLS-10180-IL",
+    "address": "4867 State St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1134227,
+      "sold_date": "2026-01-21",
+      "original_list_price": 1410406,
+      "sale_to_list_ratio": 0.804,
+      "days_on_market": 15
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 5077,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 1974
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.01
+    }
+  },
+  {
+    "property_id": "RE-10181-IL",
+    "address": "3934 Oak St, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 872019,
+      "sold_date": "2025-04-20",
+      "original_list_price": 904986,
+      "sale_to_list_ratio": 0.964,
+      "days_on_market": 16,
+      "competing_offers": 5,
+      "concessions_paid": 4165
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2528,
+      "lot_size_ac": 0.25,
+      "condition_grade": "C+",
+      "year_built": 1921,
+      "last_reno_year": 2025
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.42
+    }
+  },
+  {
+    "property_id": "MLS-10182-IL",
+    "address": "4221 Lincoln Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 519649,
+      "sold_date": "2025-11-15",
+      "original_list_price": 533105,
+      "sale_to_list_ratio": 0.975,
+      "days_on_market": 82,
+      "competing_offers": 7,
+      "concessions_paid": 6814
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2294,
+      "lot_size_ac": 0.2,
+      "condition_grade": "D",
+      "year_built": 1905
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.88
+    }
+  },
+  {
+    "property_id": "RE-10183-IL",
+    "address": "1956 Diversey Pkwy, Chicago, IL 60622",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1483315,
+      "sold_date": "2024-08-16",
+      "original_list_price": 1466845,
+      "sale_to_list_ratio": 1.011,
+      "days_on_market": 14,
+      "competing_offers": 3
+    },
+    "features": {
+      "beds": 5,
+      "baths": 4,
+      "sqft": 4413,
+      "lot_size_ac": 0.25,
+      "condition_grade": "B+",
+      "year_built": 1900,
+      "last_reno_year": 2024
+    },
+    "market_context": {
+      "zip_median_sale": 550000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.97
+    }
+  },
+  {
+    "property_id": "MLS-10184-IL",
+    "address": "405 Halsted St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1050777,
+      "sold_date": "2025-11-22",
+      "original_list_price": 1092119,
+      "sale_to_list_ratio": 0.962,
+      "days_on_market": 76
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 2825,
+      "lot_size_ac": 0.11,
+      "condition_grade": "B+",
+      "year_built": 2010
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.03
+    }
+  },
+  {
+    "property_id": "MLS-10185-IL",
+    "address": "6977 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1648403,
+      "sold_date": "2024-03-28",
+      "original_list_price": 1709105,
+      "sale_to_list_ratio": 0.964,
+      "days_on_market": 38,
+      "concessions_paid": 2135
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 4972,
+      "lot_size_ac": 0.33,
+      "condition_grade": "A",
+      "year_built": 1976
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.9
+    }
+  },
+  {
+    "property_id": "RE-10186-IL",
+    "address": "3859 Diversey Pkwy, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 2125421,
+      "sold_date": "2025-09-12",
+      "original_list_price": 2024907,
+      "sale_to_list_ratio": 1.05,
+      "days_on_market": 27
+    },
+    "features": {
+      "beds": 4,
+      "baths": 5,
+      "sqft": 5456,
+      "lot_size_ac": 0.46,
+      "condition_grade": "A",
+      "year_built": 1979
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.59
+    }
+  },
+  {
+    "property_id": "RE-10187-IL",
+    "address": "3465 Ashland Ave, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 2655895,
+      "sold_date": "2026-03-19",
+      "original_list_price": 2662353,
+      "sale_to_list_ratio": 0.998,
+      "days_on_market": 31,
+      "concessions_paid": 2058
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 5853,
+      "lot_size_ac": 0.46,
+      "condition_grade": "B+",
+      "year_built": 1984,
+      "last_reno_year": 2025
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.59
+    }
+  },
+  {
+    "property_id": "MLS-10188-IL",
+    "address": "5741 Lincoln Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 652641,
+      "sold_date": "2025-02-22",
+      "original_list_price": 627113,
+      "sale_to_list_ratio": 1.041,
+      "days_on_market": 61
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2698,
+      "lot_size_ac": 0.5,
+      "condition_grade": "B",
+      "year_built": 1954
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.79
+    }
+  },
+  {
+    "property_id": "RE-10189-IL",
+    "address": "1411 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 519235,
+      "sold_date": "2026-01-23",
+      "original_list_price": 530448,
+      "sale_to_list_ratio": 0.979,
+      "days_on_market": 86,
+      "concessions_paid": 3816
+    },
+    "features": {
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1970,
+      "lot_size_ac": 0.12,
+      "condition_grade": "C+",
+      "year_built": 2018
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.69
+    }
+  },
+  {
+    "property_id": "ATTOM-10190-IL",
+    "address": "5993 Clark St, Chicago, IL 60611",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1154920,
+      "sold_date": "2026-01-11",
+      "original_list_price": 1182028,
+      "sale_to_list_ratio": 0.977,
+      "days_on_market": 52
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2843,
+      "lot_size_ac": 0.34,
+      "condition_grade": "A",
+      "year_built": 1995
+    },
+    "market_context": {
+      "zip_median_sale": 720000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.18
+    }
+  },
+  {
+    "property_id": "RE-10191-IL",
+    "address": "6718 Oak St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 348616,
+      "sold_date": "2025-11-01",
+      "original_list_price": 359235,
+      "sale_to_list_ratio": 0.97,
+      "days_on_market": 7,
+      "concessions_paid": 4265
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 1082,
+      "lot_size_ac": 0.38,
+      "condition_grade": "B+",
+      "year_built": 1988,
+      "last_reno_year": 2017
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.34
+    }
+  },
+  {
+    "property_id": "RE-10192-IL",
+    "address": "7648 Oak St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 186779,
+      "sold_date": "2024-09-24",
+      "original_list_price": 199695,
+      "sale_to_list_ratio": 0.935,
+      "days_on_market": 1
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 874,
+      "lot_size_ac": 0.44,
+      "condition_grade": "D",
+      "year_built": 1965
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.61
+    }
+  },
+  {
+    "property_id": "MLS-10193-IL",
+    "address": "4508 State St, Chicago, IL 60614",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 544090,
+      "sold_date": "2025-05-08",
+      "original_list_price": 521953,
+      "sale_to_list_ratio": 1.042,
+      "days_on_market": 69,
+      "concessions_paid": 3462
+    },
+    "features": {
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1951,
+      "lot_size_ac": 0.28,
+      "condition_grade": "D",
+      "year_built": 1952,
+      "last_reno_year": 2020
+    },
+    "market_context": {
+      "zip_median_sale": 650000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.1
+    }
+  },
+  {
+    "property_id": "RE-10194-IL",
+    "address": "9512 Halsted St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 257327,
+      "sold_date": "2026-02-03",
+      "original_list_price": 279406,
+      "sale_to_list_ratio": 0.921,
+      "days_on_market": 48,
+      "competing_offers": 5,
+      "concessions_paid": 4583
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1047,
+      "lot_size_ac": 0.12,
+      "condition_grade": "C",
+      "year_built": 2013,
+      "last_reno_year": 2019
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.77
+    }
+  },
+  {
+    "property_id": "ATTOM-10195-IL",
+    "address": "6316 Maple Ave, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1785589,
+      "sold_date": "2025-05-17",
+      "original_list_price": 1713080,
+      "sale_to_list_ratio": 1.042,
+      "days_on_market": 118
+    },
+    "features": {
+      "beds": 5,
+      "baths": 3,
+      "sqft": 4147,
+      "lot_size_ac": 0.27,
+      "condition_grade": "A-",
+      "year_built": 1980
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.35
+    }
+  },
+  {
+    "property_id": "MLS-10196-IL",
+    "address": "3844 Maple Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 349931,
+      "sold_date": "2024-11-29",
+      "original_list_price": 385794,
+      "sale_to_list_ratio": 0.907,
+      "days_on_market": 69
+    },
+    "features": {
+      "beds": 2,
+      "baths": 1,
+      "sqft": 1361,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 2016
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.14
+    }
+  },
+  {
+    "property_id": "MLS-10197-IL",
+    "address": "881 Lincoln Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 641631,
+      "sold_date": "2026-01-08",
+      "original_list_price": 619762,
+      "sale_to_list_ratio": 1.035,
+      "days_on_market": 18,
+      "concessions_paid": 5986
+    },
+    "features": {
+      "beds": 2,
+      "baths": 2,
+      "sqft": 2280,
+      "lot_size_ac": null,
+      "condition_grade": "B+",
+      "year_built": 1919,
+      "last_reno_year": 2023
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.04
+    }
+  },
+  {
+    "property_id": "MLS-10198-IL",
+    "address": "8921 State St, Chicago, IL 60657",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 1743243,
+      "sold_date": "2024-04-11",
+      "original_list_price": 1734185,
+      "sale_to_list_ratio": 1.005,
+      "days_on_market": 46
+    },
+    "features": {
+      "beds": 6,
+      "baths": 3,
+      "sqft": 4951,
+      "lot_size_ac": 0.3,
+      "condition_grade": "B",
+      "year_built": 1986
+    },
+    "market_context": {
+      "zip_median_sale": 620000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.84
+    }
+  },
+  {
+    "property_id": "ATTOM-10199-IL",
+    "address": "5236 Ashland Ave, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 893932,
+      "sold_date": "2026-03-10",
+      "original_list_price": 933816,
+      "sale_to_list_ratio": 0.957,
+      "days_on_market": 21,
+      "concessions_paid": 4814
+    },
+    "features": {
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2498,
+      "lot_size_ac": 0.33,
+      "condition_grade": "B",
+      "year_built": 1948,
+      "last_reno_year": 2018
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 5.91
+    }
+  },
+  {
+    "property_id": "RE-10200-IL",
+    "address": "9085 Oak St, Chicago, IL 60610",
+    "status": "SOLD",
+    "sale_details": {
+      "sold_price": 644773,
+      "sold_date": "2025-10-30",
+      "original_list_price": 702639,
+      "sale_to_list_ratio": 0.918,
+      "days_on_market": 1,
+      "concessions_paid": 3367
+    },
+    "features": {
+      "beds": 3,
+      "baths": 3,
+      "sqft": 2309,
+      "lot_size_ac": null,
+      "condition_grade": "B",
+      "year_built": 2006
+    },
+    "market_context": {
+      "zip_median_sale": 580000,
+      "neighborhood_velocity": "STABLE",
+      "mortgage_rate_at_sale": 6.12
+    }
+  }
+]

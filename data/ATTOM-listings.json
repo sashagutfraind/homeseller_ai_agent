@@ -1,0 +1,42 @@
+[
+  {
+    "listing_id": "FSBO-7721-SEA",
+    "listing_source": "DIRECT_OWNER",
+    "address": "802 E Howell St, Seattle, WA",
+    "status": "ACTIVE",
+    "pricing": {
+      "current_list_price": 899000,
+      "original_list_price": 925000,
+      "price_drop_count": 1,
+      "last_price_change_date": "2026-03-10"
+    },
+    "signals": {
+      "days_on_market": 45,
+      "view_count_7d": 1240,
+      "save_count": 82,
+      "seller_flexibility_score": 0.78, 
+      "estimated_holding_cost_monthly": 4200
+    },
+    "features": {
+      "beds": 3, "baths": 2.5, "sqft": 1850,
+      "condition_score_cv": 0.92,
+      "fsbo_motivation": "RELOCATION"
+    }
+  },
+  {
+    "listing_id": "MLS-1029-NYC",
+    "listing_source": "MLS",
+    "address": "45-10 Court Sq, Long Island City, NY",
+    "status": "ACTIVE",
+    "pricing": {
+      "current_list_price": 1150000,
+      "original_list_price": 1150000,
+      "price_drop_count": 0
+    },
+    "signals": {
+      "days_on_market": 12,
+      "view_count_7d": 4500,
+      "market_demand_index": "HIGH"
+    }
+  }
+]

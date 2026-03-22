@@ -1,0 +1,60 @@
+{
+  "property_id": "FSBO-MY-HOME",
+  "address": "2847 N Sheffield Ave, Chicago, IL 60657",
+  "status": "FOR_SALE_BY_OWNER",
+  "features": {
+    "beds": 3,
+    "baths": 2,
+    "sqft": 1850,
+    "lot_size_ac": 0.15,
+    "year_built": 2005,
+    "last_reno_year": 2023,
+    "condition_grade": "B+"
+  },
+  "owner_info": {
+    "name": "[Your Name]",
+    "contact": "[Your Email]",
+    "motivation": "Looking to sell without agent commission",
+    "timeline": "Flexible, 60-90 days preferred"
+  },
+  "property_details": {
+    "property_type": "single_family",
+    "stories": 2,
+    "garage": "2-car attached",
+    "basement": "finished",
+    "heating": "forced air, gas",
+    "cooling": "central air",
+    "roof_age": 5,
+    "recent_updates": [
+      "Kitchen remodel (2023)",
+      "New HVAC system (2022)",
+      "Bathroom updates (2023)",
+      "Fresh paint throughout (2024)"
+    ]
+  },
+  "location": {
+    "zip_code": "60657",
+    "neighborhood": "Lakeview",
+    "school_district": "Chicago Public Schools",
+    "walk_score": 92,
+    "transit_score": 88,
+    "nearby_amenities": [
+      "Wrigley Field - 0.5 miles",
+      "Lake Michigan - 0.8 miles",
+      "Multiple restaurants and shops within walking distance"
+    ]
+  },
+  "financial": {
+    "desired_price": 675000,
+    "property_tax_annual": 8500,
+    "hoa_monthly": 0,
+    "carrying_cost_monthly": 3200
+  },
+  "market_context": {
+    "zip_median_sale": 620000,
+    "neighborhood_velocity": "WARM",
+    "comparable_sales_last_90_days": 12,
+    "avg_dom_in_area": 42
+  },
+  "test": "data"
+}
