@@ -2,6 +2,14 @@
 
 AI-powered tool to help homeowners price and sell their homes without expensive agent commissions.
 
+![Dashboard Top](screenshot_top.png)
+![Dashboard Bottom](screenshot_bottom.png)
+
+## Contact
+
+- [contact@optanomai.8shield.net](contact@optanomai.8shield.net)
+- More about [optanom.ai](https://optanom.ai/)
+
 ## Quick Start
 
 ### 1. Get Real Estate Data

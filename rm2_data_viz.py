@@ -167,7 +167,7 @@ HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Real Estate Revenue Management Dashboard</title>
+    <title>Homeseller's AI agent - Real Estate Revenue Management Dashboard</title>
     <meta charset="utf-8">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -369,7 +369,7 @@ HTML_TEMPLATE = """
 </head>
 <body>
     <div class="container">
-        <h1>🏠 Real Estate Revenue Management Dashboard</h1>
+        <h1>🏠 Homeseller's AI agent - Dashboard to optimize the listing of your property</h1>
         <p class="subtitle">AI-Powered Pricing & Market Analytics</p>
         
         <!-- Market Stats -->
@@ -817,7 +817,7 @@ def index():
     stats = {
         'total_sales': len(sales),
         'avg_price': np.mean([s['sale_details']['sold_price'] for s in sales]),
-        'avg_dom': np.mean([s['sale_details']['days_on_market'] for s in sales]),
+        'avg_dom': int(np.round(np.mean([s['sale_details']['days_on_market'] for s in sales]))),
         'active_listings': len(listings)
     }
     
@@ -890,4 +890,4 @@ if __name__ == '__main__':
     print("\nStarting server at http://localhost:8080")
     print("Press Ctrl+C to stop\n")
     
-    app.run(debug=True, port=8080)
+    app.run(debug=True, host='0.0.0.0', port=8080)
