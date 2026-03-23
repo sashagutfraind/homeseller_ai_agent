@@ -1,8 +1,15 @@
-# Real Estate Price Management System
+# Real Estate Price Management solutions
 
-AI-powered tool to help homeowners price and sell their homes without expensive agent commissions.
+AI/ML-powered tools to help homeowners smartly price and sell their homes
+(STATUS: proof of concept - limited testing)
 
+The solution is ideal for tech-savvy and independent sellers, including FSBO (for sale by owner)
+
+## Listing advisor
 ![Dashboard Top](screenshot_top.png)
+
+
+## Price management advisor
 ![Dashboard Bottom](screenshot_bottom.png)
 
 ## Contact
@@ -24,7 +31,7 @@ uv run python rm1_data_gen.py
 This creates synthetic sales and listings data in `data-generated/`:
 - `ATTOM-sales.json` - Historical sales records
 - `ATTOM-listings.json` - Current active listings
-- `my_signals.jsonl` - Daily market signals timeline for your FSBO listing
+- `my_signals.jsonl` - Daily market signals timeline for your listing
 
 #### Option B: Use Real Market Data (recommended)
 
@@ -54,24 +61,25 @@ For production use, obtain real market data through:
 
 Save data in the same JSON format as the generated samples.
 
-### 2. Launch Price planner (before listing)
+### 2. Price planner (utilize before listing)
 
 ```bash
 uv run python rm2_data_viz.py
 ```
 
-Open http://localhost:8080 in your browser.
-(do not include index.html in the path)
+Open http://localhost:8080 in your browser (do not include index.html in the path)
 
-### 3. Launch Price Management Advisor 
+- visualize listings in your area
+- estimate the market price of your property
 
-For active sellers tracking market signals:
+### 3. Price management advisor (utilize after listing)
 
 ```bash
 uv run python rm3_advisor.py
 ```
 
-Open http://localhost:8081 in your browser to view:
+Open http://localhost:8081 in your browser to view.
+
 - Real-time pricing recommendations based on market signals
 - Traffic trend analysis (CTR, showings, engagement)
 - Price history and adjustment tracking
@@ -106,11 +114,6 @@ AI-powered pricing strategy tool that:
 - **Interactive Charts**: Real-time visualization of price, CTR, and showing trends
 - **Urgency Indicators**: Flags high-urgency situations requiring immediate price adjustments
 
-Launch the advisor:
-```bash
-uv run python rm3_advisor.py
-```
-Access at http://localhost:8081
 
 ### Your Listing (`my.json`)
 Edit this file with your property details to get a fair market price estimate.
@@ -137,7 +140,7 @@ config = DataGenerationConfig(
 
 ## Future Work
 
-- **AI agent for listing**: AI-powered photo selection and description writing
+- **AI agent for constructing listing**: AI-powered photo selection and description writing
 - **Enhanced pricing ML models**: Implement XGBoost, Random Forest, and ensemble methods
    - Location-specific features (school ratings, crime rates, walkability)
    - Market timing factors (seasonality, interest rates, inventory levels)
@@ -145,10 +148,9 @@ config = DataGenerationConfig(
    - Neighborhood trends and comparable sales analysis
    - More sophisticated models (XGBoost, Random Forest, Neural Networks)
    - Time-series forecasting for price trends
-- **Feature Engineering**: Add location quality scores, market momentum indicators
-- **Dynamic Pricing**: Real-time price recommendations based on market changes
-- **Comparative Market Analysis**: Automated CMA reports
-- **Price Elasticity**: Model demand curves for optimal pricing
-- **A/B Testing**: Test different listing strategies
+- **Advanced Dynamic Pricing**: More advanced AI-powered price recommendations 
+   - Price Elasticity: Model demand curves for optimal pricing
+   - Comparative Market Analysis: Automated CMA reports
+   - End-to-end revenue optimization: consider holding cost and market risks
 - **Integration**: Connect to real MLS data APIs and CRM systems
 - **Mobile App**: iOS/Android apps for on-the-go management
