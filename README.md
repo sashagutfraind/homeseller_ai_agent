@@ -85,6 +85,16 @@ Open http://localhost:8081 in your browser to view.
 - Price history and adjustment tracking
 - Urgency indicators for pricing decisions
 
+### 4. Pricing chatbot (conversational advisor)
+
+```bash
+uv run python rm4_pricing_chatbot.py
+```
+
+Open http://localhost:8084 in your browser.
+
+A multi-turn Flask chatbot powered by Claude Haiku via AWS Bedrock. Walk through your stage of sale and goals, then get interactive pricing advice in a chat interface. Requires AWS credentials (auto-detected from `AWS_PROFILE` if set).
+
 ## Features
 
 ### Data Generation (`rm1_data_gen.py`)
