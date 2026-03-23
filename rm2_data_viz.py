@@ -167,7 +167,7 @@ HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Homeseller's AI agent - Real Estate Revenue Management Dashboard</title>
+    <title>Homeseller's AI agent - Real Estate Price Planning Dashboard (Alpha POC)</title>
     <meta charset="utf-8">
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -794,7 +794,7 @@ HTML_TEMPLATE = """
     </script>
     
     <footer style="text-align: center; padding: 40px 20px; color: #666; border-top: 1px solid #eee; margin-top: 40px;">
-        <p>Real Estate Revenue Management Dashboard</p>
+        <p>Real Estate Price Management Dashboard</p>
         <p>Copyright © 2026 Sasha Gutfraind | 
         <a href="https://github.com/sashagutfraind/homeseller_ai_agent" target="_blank" style="color: #4CAF50;">GitHub Repository</a></p>
         <p style="font-size: 12px; margin-top: 10px;">For educational and research purposes. See LICENSE.md for details.</p>
@@ -885,7 +885,7 @@ def api_save():
 
 if __name__ == '__main__':
     print("=" * 70)
-    print("Real Estate Revenue Management Dashboard")
+    print("Real Estate Price Planning Dashboard")
     print("=" * 70)
     print("\nStarting server at http://localhost:8080")
     print("Press Ctrl+C to stop\n")

@@ -1,12 +1,13 @@
 [project]
 name = "real-estate-rm"
 version = "0.1.0"
-description = "AI-powered real estate revenue management system"
+description = "AI-powered real estate price management system"
 requires-python = ">=3.9"
 dependencies = [
     "flask>=3.0.0",
     "scikit-learn>=1.3.0",
     "numpy>=1.24.0",
+    "markdown>=3.5.0",
 ]
 
 [tool.hatch.build.targets.wheel]

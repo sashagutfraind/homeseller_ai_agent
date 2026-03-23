@@ -1,4 +1,4 @@
-# Real Estate Revenue Management System
+# Real Estate Price Management System
 
 AI-powered tool to help homeowners price and sell their homes without expensive agent commissions.
 
@@ -24,6 +24,7 @@ uv run python rm1_data_gen.py
 This creates synthetic sales and listings data in `data-generated/`:
 - `ATTOM-sales.json` - Historical sales records
 - `ATTOM-listings.json` - Current active listings
+- `my_signals.jsonl` - Daily market signals timeline for your FSBO listing
 
 #### Option B: Use Real Market Data (recommended)
 
@@ -53,13 +54,28 @@ For production use, obtain real market data through:
 
 Save data in the same JSON format as the generated samples.
 
-### 2. Launch Dashboard
+### 2. Launch Price planner (before listing)
 
 ```bash
 uv run python rm2_data_viz.py
 ```
 
 Open http://localhost:8080 in your browser.
+(do not include index.html in the path)
+
+### 3. Launch Price Management Advisor 
+
+For active sellers tracking market signals:
+
+```bash
+uv run python rm3_advisor.py
+```
+
+Open http://localhost:8081 in your browser to view:
+- Real-time pricing recommendations based on market signals
+- Traffic trend analysis (CTR, showings, engagement)
+- Price history and adjustment tracking
+- Urgency indicators for pricing decisions
 
 ## Features
 
@@ -81,6 +97,21 @@ Interactive web interface with:
 - **Filterable Data**: Search by address, filter by bedrooms/price
 - **Pricing Model**: Linear regression calibrated on historical sales
 
+### Price Management Advisor (`rm3_advisor.py`)
+AI-powered pricing strategy tool that:
+- **Analyzes Market Signals**: Tracks digital engagement (CTR, impressions, saves) and physical interest (showings, second showings)
+- **Traffic Trend Analysis**: Monitors 7-day trends to detect declining, stable, or increasing buyer interest
+- **Pricing Recommendations**: Provides actionable advice (reduce price, hold, or monitor) with confidence levels
+- **Price History Tracking**: Visualizes all price adjustments and their impact on market signals
+- **Interactive Charts**: Real-time visualization of price, CTR, and showing trends
+- **Urgency Indicators**: Flags high-urgency situations requiring immediate price adjustments
+
+Launch the advisor:
+```bash
+uv run python rm3_advisor.py
+```
+Access at http://localhost:8081
+
 ### Your Listing (`my.json`)
 Edit this file with your property details to get a fair market price estimate.
 
@@ -91,16 +122,6 @@ The system uses a linear regression model that:
 2. **Extracts features**: beds, baths, sqft, lot size, year built, renovation year, condition
 3. **Predicts** fair market value with confidence interval
 4. **Reports** model performance (R² score)
-
-### Current Limitations
-
-The pricing model is currently based on a limited set of features. Future improvements should include:
-- Location-specific features (school ratings, crime rates, walkability)
-- Market timing factors (seasonality, interest rates, inventory levels)
-- Property-specific amenities (pool, garage, fireplace, etc.)
-- Neighborhood trends and comparable sales analysis
-- More sophisticated models (XGBoost, Random Forest, Neural Networks)
-- Time-series forecasting for price trends
 
 ## Customization
 
@@ -116,10 +137,16 @@ config = DataGenerationConfig(
 
 ## Future Work
 
-- **Enhanced ML Models**: Implement XGBoost, Random Forest, and ensemble methods
+- **AI agent for listing**: AI-powered photo selection and description writing
+- **Enhanced pricing ML models**: Implement XGBoost, Random Forest, and ensemble methods
+   - Location-specific features (school ratings, crime rates, walkability)
+   - Market timing factors (seasonality, interest rates, inventory levels)
+   - Property-specific amenities (pool, garage, fireplace, etc.)
+   - Neighborhood trends and comparable sales analysis
+   - More sophisticated models (XGBoost, Random Forest, Neural Networks)
+   - Time-series forecasting for price trends
 - **Feature Engineering**: Add location quality scores, market momentum indicators
 - **Dynamic Pricing**: Real-time price recommendations based on market changes
-- **Listing Optimization**: AI-powered photo selection and description writing
 - **Comparative Market Analysis**: Automated CMA reports
 - **Price Elasticity**: Model demand curves for optimal pricing
 - **A/B Testing**: Test different listing strategies

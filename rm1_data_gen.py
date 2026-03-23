@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Real Estate Data Generator for Revenue Management System
+Real Estate Data Generator for Price Management System
 Generates synthetic sales and listings data with configurable parameters
 
 Copyright (c) 2026 Sasha Gutfraind
@@ -25,8 +25,8 @@ from enum import Enum
 @dataclass
 class TimeWindowConfig:
     """Controls the time period for data generation"""
-    start_date: str = "2024-01-01"  # YYYY-MM-DD
-    end_date: str = "2026-03-22"
+    start_date: str = (datetime.now() - timedelta(days=730)).strftime("%Y-%m-%d")  # 2 years ago
+    end_date: str = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")  # 7 days ago
     listing_creation_rate_per_month: int = 50  # New listings per month
     
 
@@ -463,6 +463,264 @@ def create_default_config() -> DataGenerationConfig:
     )
 
 
+# ============================================================================
+# SIGNALS GENERATOR
+# ============================================================================
+
+class SignalsGenerator:
+    """Generates realistic market signals for a FSBO listing over time"""
+    
+    def __init__(self, initial_price: int, duration_days: int = 30):
+        self.initial_price = initial_price
+        self.duration_days = duration_days
+        self.current_price = initial_price
+        
+    def generate_digital_signals(self, day: int, price: int) -> dict:
+        """Generate digital engagement signals"""
+        # Early days have higher engagement
+        day_factor = max(0.2, 1.0 - (day / self.duration_days) * 0.6)
+        
+        # Price sensitivity - higher price = lower engagement
+        price_factor = self.initial_price / price if price > 0 else 1.0
+        
+        impressions = int(random.gauss(500, 150) * day_factor)
+        clicks = int(impressions * random.gauss(0.025, 0.01) * price_factor)
+        saves = int(clicks * random.gauss(0.15, 0.05))
+        shares = int(clicks * random.gauss(0.03, 0.01))
+        
+        return {
+            "impressions": max(0, impressions),
+            "clicks": max(0, clicks),
+            "saves": max(0, saves),
+            "shares": max(0, shares),
+            "ctr": round(clicks / impressions * 100, 2) if impressions > 0 else 0,
+            "save_rate": round(saves / clicks * 100, 2) if clicks > 0 else 0
+        }
+    
+    def generate_showing_signals(self, day: int, price: int) -> dict:
+        """Generate physical showing signals"""
+        # Showings decrease if price is too high or listing is stale
+        base_showings = 5
+        
+        # Price sensitivity
+        price_ratio = price / self.initial_price
+        price_penalty = max(0.3, 1.5 - price_ratio)
+        
+        # Staleness penalty
+        staleness_penalty = max(0.4, 1.0 - (day / self.duration_days) * 0.5)
+        
+        showings_requested = max(0, int(random.gauss(base_showings * price_penalty * staleness_penalty, 2)))
+        showings_completed = int(showings_requested * random.gauss(0.8, 0.1))
+        second_showings = int(showings_completed * random.gauss(0.2, 0.1)) if showings_completed > 0 else 0
+        
+        return {
+            "showings_requested": showings_requested,
+            "showings_completed": max(0, showings_completed),
+            "second_showings": max(0, second_showings),
+            "no_shows": max(0, showings_requested - showings_completed)
+        }
+    
+    def generate_agent_feedback(self, day: int) -> list:
+        """Generate realistic agent feedback"""
+        feedback_pool = [
+            "Great location, but price seems high for the area",
+            "Buyers loved the layout and natural light",
+            "Kitchen needs updating - buyers mentioned this",
+            "Comparable homes are priced lower",
+            "Property shows well, very clean",
+            "Buyers concerned about the price per square foot",
+            "Nice finishes, but small lot size",
+            "Great curb appeal",
+            "Bathrooms are dated",
+            "Excellent condition overall",
+            "Price is at the top of the market",
+            "Buyers want to see more value at this price point",
+            "Good bones, needs cosmetic updates",
+            "Perfect for a family",
+            "Neighborhood is very desirable"
+        ]
+        
+        # More feedback early on
+        num_feedback = max(0, int(random.gauss(2, 1) * (1 - day / self.duration_days)))
+        return random.sample(feedback_pool, min(num_feedback, len(feedback_pool)))
+    
+    def generate_competitive_signals(self, day: int) -> dict:
+        """Generate competitive market signals"""
+        return {
+            "new_listings_this_week": random.randint(2, 8),
+            "pending_sales_this_week": random.randint(1, 5),
+            "price_reductions_nearby": random.randint(0, 3),
+            "days_on_market_avg_zip": random.randint(25, 60)
+        }
+    
+    def generate_macro_signals(self, day: int) -> dict:
+        """Generate macro-economic signals"""
+        base_rate = 6.5
+        rate_volatility = random.gauss(0, 0.15)
+        
+        return {
+            "mortgage_rate_30yr": round(base_rate + rate_volatility, 2),
+            "inventory_change_pct": round(random.gauss(2, 5), 1),
+            "median_sale_price_zip": random.randint(580000, 720000),
+            "absorption_rate_pct": round(random.gauss(18, 5), 1)
+        }
+    
+    def generate_self_note(self, day: int, price: int, signals: dict) -> str:
+        """Generate realistic seller self-notes"""
+        notes = []
+        
+        if signals["digital"]["ctr"] < 1.5:
+            notes.append("CTR is low - considering new photos or price adjustment")
+        
+        if signals["showing"]["showings_requested"] < 2:
+            notes.append("Very few showing requests - price may be too high")
+        
+        if day > 7 and price == self.initial_price:
+            notes.append("Been a week, no offers yet. Thinking about small price drop")
+        
+        if day > 14:
+            notes.append("Property getting stale. Need to act soon")
+        
+        if signals["showing"]["second_showings"] > 0:
+            notes.append(f"Good sign: {signals['showing']['second_showings']} second showings!")
+        
+        if len(notes) == 0:
+            generic_notes = [
+                "Monitoring market closely",
+                "Waiting for the right buyer",
+                "Staying patient but ready to adjust",
+                "Keeping property in top condition",
+                "Reviewing comparable sales"
+            ]
+            notes.append(random.choice(generic_notes))
+        
+        return " | ".join(notes)
+    
+    def generate_visitor_note(self, showing_completed: bool) -> str:
+        """Generate visitor feedback notes"""
+        if not showing_completed:
+            return ""
+        
+        positive_notes = [
+            "Loved the open floor plan",
+            "Great natural light throughout",
+            "Kitchen is beautiful",
+            "Perfect size for our family",
+            "Neighborhood feels safe and friendly",
+            "Love the backyard space",
+            "Excellent condition",
+            "Modern finishes are impressive"
+        ]
+        
+        negative_notes = [
+            "A bit over our budget",
+            "Would need to update bathrooms",
+            "Smaller than expected",
+            "Concerned about the price",
+            "Comparing with other options",
+            "Need to think about it",
+            "Layout doesn't work for us",
+            "Looking at similar homes for less"
+        ]
+        
+        concerns = [
+            "Asking about price flexibility",
+            "Interested but waiting to see more homes",
+            "Would make offer if price drops",
+            "Comparing to other listings"
+        ]
+        
+        note_type = random.choice(["positive", "negative", "concern", "mixed"])
+        
+        if note_type == "positive":
+            return random.choice(positive_notes)
+        elif note_type == "negative":
+            return random.choice(negative_notes)
+        elif note_type == "concern":
+            return random.choice(concerns)
+        else:
+            return f"{random.choice(positive_notes)}, but {random.choice(negative_notes).lower()}"
+    
+    def calculate_price_adjustment(self, day: int, signals: dict) -> int:
+        """Calculate price adjustment based on signals"""
+        # Price reduction strategy over 30 days
+        # Week 1: No change (days 0-7)
+        # Week 2: Small drop if needed (days 8-14)
+        # Week 3-4: Moderate drops if still no traction
+        
+        if day <= 7:
+            return 0
+        
+        # Factors that trigger price drops
+        low_engagement = signals["digital"]["ctr"] < 1.5
+        low_showings = signals["showing"]["showings_requested"] < 3
+        
+        # Only drop price once per week
+        if day == 10 and low_engagement and low_showings:
+            return -int(self.current_price * 0.03)  # 3% drop
+        elif day == 17 and low_showings:
+            return -int(self.current_price * 0.025)  # 2.5% drop
+        elif day == 24 and signals["showing"]["second_showings"] == 0:
+            return -int(self.current_price * 0.02)  # 2% drop
+        
+        return 0
+    
+    def generate_signals_timeline(self, start_date: str = "2026-03-15") -> list:
+        """Generate complete signals timeline"""
+        signals_timeline = []
+        start = datetime.strptime(start_date, "%Y-%m-%d")
+        
+        for day in range(self.duration_days):
+            current_date = start + timedelta(days=day)
+            
+            # Generate all signal types
+            digital = self.generate_digital_signals(day, self.current_price)
+            showing = self.generate_showing_signals(day, self.current_price)
+            competitive = self.generate_competitive_signals(day)
+            macro = self.generate_macro_signals(day)
+            agent_feedback = self.generate_agent_feedback(day)
+            
+            signals = {
+                "digital": digital,
+                "showing": showing,
+                "competitive": competitive,
+                "macro": macro
+            }
+            
+            # Generate notes
+            self_note = self.generate_self_note(day, self.current_price, signals)
+            visitor_notes = []
+            for _ in range(showing["showings_completed"]):
+                note = self.generate_visitor_note(True)
+                if note:
+                    visitor_notes.append(note)
+            
+            # Create signal record
+            record = {
+                "date": current_date.strftime("%Y-%m-%d"),
+                "day": day,
+                "price": self.current_price,
+                "digital_signals": digital,
+                "showing_signals": showing,
+                "competitive_signals": competitive,
+                "macro_signals": macro,
+                "agent_feedback": agent_feedback,
+                "self_note": self_note,
+                "visitor_notes": visitor_notes
+            }
+            
+            signals_timeline.append(record)
+            
+            # Adjust price for next day
+            price_adjustment = self.calculate_price_adjustment(day, signals)
+            if price_adjustment != 0:
+                self.current_price += price_adjustment
+                # Round to nearest $1000
+                self.current_price = round(self.current_price / 1000) * 1000
+        
+        return signals_timeline
+
+
 def main():
     """Main execution function"""
     print("=" * 70)
@@ -506,6 +764,40 @@ def main():
     
     avg_list_price = sum(l["listing_details"]["list_price"] for l in listings) / len(listings)
     print(f"Average List Price: ${avg_list_price:,.0f}")
+    
+    # Generate signals timeline
+    print("\n" + "=" * 70)
+    print("GENERATING SIGNALS TIMELINE")
+    print("=" * 70)
+    
+    # Use the price from my.json if available
+    try:
+        with open('my.json', 'r') as f:
+            my_listing = json.load(f)
+            initial_price = my_listing.get('financial', {}).get('desired_price', 675000)
+    except FileNotFoundError:
+        initial_price = 675000
+    
+    # Calculate signal generation dates
+    # Start from config.time_window.end_date (7 days ago) and run until yesterday
+    signal_start_date = datetime.strptime(config.time_window.end_date, "%Y-%m-%d")
+    signal_end_date = datetime.now() - timedelta(days=1)
+    signal_duration_days = (signal_end_date - signal_start_date).days + 1
+    
+    signals_gen = SignalsGenerator(initial_price=initial_price, duration_days=signal_duration_days)
+    signals_timeline = signals_gen.generate_signals_timeline(start_date=signal_start_date.strftime("%Y-%m-%d"))
+    
+    # Save as JSONL (one JSON object per line)
+    signals_file = "data-generated/my_signals.jsonl"
+    with open(signals_file, 'w') as f:
+        for signal in signals_timeline:
+            f.write(json.dumps(signal) + '\n')
+    
+    print(f"✓ Saved {len(signals_timeline)} days of signals to {signals_file}")
+    print(f"  Signal period: {signal_start_date.strftime('%Y-%m-%d')} to {signal_end_date.strftime('%Y-%m-%d')}")
+    print(f"  Initial Price: ${initial_price:,}")
+    print(f"  Final Price: ${signals_gen.current_price:,}")
+    print(f"  Total Price Reduction: ${initial_price - signals_gen.current_price:,} ({((initial_price - signals_gen.current_price) / initial_price * 100):.1f}%)")
     
     print("\n" + "=" * 70)
 
