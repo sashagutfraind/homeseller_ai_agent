@@ -17,15 +17,44 @@ The solution is ideal for tech-savvy and independent sellers, including FSBO (fo
 - [contact@optanomai.8shield.net](contact@optanomai.8shield.net)
 - More about [optanom.ai](https://optanom.ai/)
 
-## Quick Start
+## Quick start
 
-### 1. Get Real Estate Data
+### 1. Price planner (utilize before listing)
 
-You have two options:
+```bash
+uv run python price_planner.py
+```
+
+Open http://localhost:8080 in your browser (do not include index.html in the path)
+
+### 2. Price management advisor (utilize after listing)
+
+```bash
+uv run python price_adjust_manager.py
+```
+
+Open http://localhost:8081 in your browser to view.
+
+
+### 3. Pricing chatbot (conversational advisor)
+
+```bash
+uv run python price_chatbot.py
+```
+
+Open http://localhost:8084 in your browser.
+
+Requires AWS credentials (auto-detected from `AWS_PROFILE` if set).
+
+### 4. Get Real Estate Data
+
+Modify ```my.json``` to describe your property (or use the listing advisor)
+
+For comparables and market signals, you have two options:
 
 #### Option A: Use Sample Generated Data (for testing)
 ```bash
-uv run python rm1_data_gen.py
+uv run python data_gen.py
 ```
 
 This creates synthetic sales and listings data in `data-generated/`:
@@ -61,43 +90,9 @@ For production use, obtain real market data through:
 
 Save data in the same JSON format as the generated samples.
 
-### 2. Price planner (utilize before listing)
+## Detailed features
 
-```bash
-uv run python rm2_data_viz.py
-```
-
-Open http://localhost:8080 in your browser (do not include index.html in the path)
-
-- visualize listings in your area
-- estimate the market price of your property
-
-### 3. Price management advisor (utilize after listing)
-
-```bash
-uv run python rm3_advisor.py
-```
-
-Open http://localhost:8081 in your browser to view.
-
-- Real-time pricing recommendations based on market signals
-- Traffic trend analysis (CTR, showings, engagement)
-- Price history and adjustment tracking
-- Urgency indicators for pricing decisions
-
-### 4. Pricing chatbot (conversational advisor)
-
-```bash
-uv run python rm4_pricing_chatbot.py
-```
-
-Open http://localhost:8084 in your browser.
-
-A multi-turn Flask chatbot powered by Claude Haiku via AWS Bedrock. Walk through your stage of sale and goals, then get interactive pricing advice in a chat interface. Requires AWS credentials (auto-detected from `AWS_PROFILE` if set).
-
-## Features
-
-### Data Generation (`rm1_data_gen.py`)
+### Data Generation (`data_gen.py`)
 Comprehensive parameter system for generating realistic real estate data:
 - **Time Window**: Date ranges, listing creation rates
 - **Property Stock**: Type, size, age, condition distributions
@@ -106,7 +101,7 @@ Comprehensive parameter system for generating realistic real estate data:
 - **Market Dynamics**: Days on market, competition, seasonality
 - **Geographic**: Locations, zip-code pricing
 
-### Dashboard (`rm2_data_viz.py`)
+### Dashboard (`price_planner.py`)
 Interactive web interface with:
 - **Market Statistics**: Total sales, average prices, days on market
 - **Your Property Valuation**: ML-powered price prediction for your FSBO listing
@@ -115,7 +110,7 @@ Interactive web interface with:
 - **Filterable Data**: Search by address, filter by bedrooms/price
 - **Pricing Model**: Linear regression calibrated on historical sales
 
-### Price Management Advisor (`rm3_advisor.py`)
+### Price Management Advisor (`price_adjust_manager.py`)
 AI-powered pricing strategy tool that:
 - **Analyzes Market Signals**: Tracks digital engagement (CTR, impressions, saves) and physical interest (showings, second showings)
 - **Traffic Trend Analysis**: Monitors 7-day trends to detect declining, stable, or increasing buyer interest
@@ -124,21 +119,17 @@ AI-powered pricing strategy tool that:
 - **Interactive Charts**: Real-time visualization of price, CTR, and showing trends
 - **Urgency Indicators**: Flags high-urgency situations requiring immediate price adjustments
 
+### Price Management Advisor (`price_chatbot.py`)
+Conversational AI wizard to help plan listing price and adjust it, powered by Amazon Bedrock, informed by professional guidance. 
+-- **Versatile input**: supports copying and pasting data
+-- **Future**: integrate with other components and deploy with Amplify
 
 ### Your Listing (`my.json`)
 Edit this file with your property details to get a fair market price estimate.
 
-## Pricing Model
-
-The system uses a linear regression model that:
-1. **Calibrates** on historical sales data
-2. **Extracts features**: beds, baths, sqft, lot size, year built, renovation year, condition
-3. **Predicts** fair market value with confidence interval
-4. **Reports** model performance (R² score)
-
 ## Customization
 
-Edit configuration in `rm1_data_gen.py`:
+Edit configuration in `data_gen.py`:
 ```python
 config = DataGenerationConfig(
     time_window=TimeWindowConfig(start_date="2024-01-01"),
