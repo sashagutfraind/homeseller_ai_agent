@@ -3,7 +3,7 @@
 Real Estate Data Generator for Price Management System
 Generates synthetic sales and listings data with configurable parameters
 
-Copyright (c) 2026 Sasha Gutfraind
+Copyright (c) 2026 A Sasha Gutfraind
 Repository: https://github.com/sashagutfraind/homeseller_ai_agent
 
 This software is provided as-is for educational and research purposes.

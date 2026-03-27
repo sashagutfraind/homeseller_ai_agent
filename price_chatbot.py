@@ -45,7 +45,7 @@ def call_bedrock_converse(
     profile: Optional[str] = None,
     access_key: Optional[str] = None,
     secret_key: Optional[str] = None,
-    region: str = "us-west-2",
+    region: str = "us-east-1",
 ) -> tuple[Optional[str], Optional[str]]:
     """Call Claude via Bedrock Converse API.
 
@@ -249,7 +249,7 @@ def index():
     parts.append('<label>AWS Secret Access Key</label>')
     parts.append('<input name="secret_key" type="password" placeholder="wJalr..." autocomplete="off" />')
     parts.append('<label>Region</label>')
-    parts.append('<input name="region" placeholder="us-west-2" value="us-west-2" />')
+    parts.append('<input name="region" placeholder="us-east-1" value="us-east-1" />')
     parts.append('<br/><div class="row">')
     parts.append('<button class="btn" type="submit">Continue &rarr;</button>')
     parts.append('</div></form></div>')
@@ -262,7 +262,7 @@ def credentials():
     aws_profile = request.form.get("aws_profile", "").strip()
     access_key = request.form.get("access_key", "").strip()
     secret_key = request.form.get("secret_key", "").strip()
-    region = request.form.get("region", "us-west-2").strip() or "us-west-2"
+    region = request.form.get("region", "us-east-1").strip() or "us-east-1"
 
     # prefer explicit key/secret over profile if both provided
     if access_key and secret_key:
@@ -365,7 +365,7 @@ def chat():
             profile=session.get("aws_profile"),
             access_key=session.get("access_key"),
             secret_key=session.get("secret_key"),
-            region=session.get("region", "us-west-2"),
+            region=session.get("region", "us-east-1"),
         )
         if reply:
             messages.append({"role": "assistant", "content": [{"text": reply}]})

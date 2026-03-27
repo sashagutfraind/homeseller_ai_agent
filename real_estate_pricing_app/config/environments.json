@@ -1,0 +1,37 @@
+{
+  "environments": {
+    "dev": {
+      "description": "Development environment for local testing",
+      "domainName": null,
+      "corsOrigins": ["*"],
+      "throttling": {
+        "chatRateLimit": 50,
+        "chatBurstLimit": 100,
+        "historyRateLimit": 20,
+        "historyBurstLimit": 40
+      }
+    },
+    "staging": {
+      "description": "Staging environment for pre-production testing",
+      "domainName": null,
+      "corsOrigins": ["*"],
+      "throttling": {
+        "chatRateLimit": 30,
+        "chatBurstLimit": 60,
+        "historyRateLimit": 15,
+        "historyBurstLimit": 30
+      }
+    },
+    "prod": {
+      "description": "Production environment",
+      "domainName": null,
+      "corsOrigins": ["https://yourdomain.com"],
+      "throttling": {
+        "chatRateLimit": 100,
+        "chatBurstLimit": 200,
+        "historyRateLimit": 50,
+        "historyBurstLimit": 100
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "userPoolId": "${Token[TOKEN.29]}",
+  "userPoolClientId": "${Token[TOKEN.35]}",
+  "identityPoolId": "${Token[TOKEN.48]}",
+  "apiUrl": "https://${Token[TOKEN.123]}.execute-api.us-east-1.${Token[AWS.URLSuffix.9]}/${Token[TOKEN.143]}/",
+  "region": "us-east-1"
+}

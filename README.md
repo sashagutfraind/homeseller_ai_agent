@@ -1,16 +1,17 @@
 # Real Estate Price Management solutions
 
 AI/ML-powered tools to help homeowners smartly price and sell their homes
-(STATUS: proof of concept - limited testing)
+- The solution is ideal for tech-savvy and independent sellers, including FSBO (for sale by owner)
+- Includes app (real_estate_pricing_app/) deployable on AWS 
+- STATUS : proof of concept - limited testing
 
-The solution is ideal for tech-savvy and independent sellers, including FSBO (for sale by owner)
 
 ## Listing advisor
-![Dashboard Top](screenshot_top.png)
+![Dashboard Top](page/screenshot_top.png)
 
 
 ## Price management advisor
-![Dashboard Bottom](screenshot_bottom.png)
+![Dashboard Bottom](page/screenshot_bottom.png)
 
 ## Contact
 
@@ -119,10 +120,24 @@ AI-powered pricing strategy tool that:
 - **Interactive Charts**: Real-time visualization of price, CTR, and showing trends
 - **Urgency Indicators**: Flags high-urgency situations requiring immediate price adjustments
 
-### Price Management Advisor (`price_chatbot.py`)
+### Pricing Chatbot (`price_chatbot.py`)
 Conversational AI wizard to help plan listing price and adjust it, powered by Amazon Bedrock, informed by professional guidance. 
--- **Versatile input**: supports copying and pasting data
--- **Future**: integrate with other components and deploy with Amplify
+- **Versatile input**: supports copying and pasting data
+- **Future**: integrate with other components and deploy with Amplify
+
+## Full-Stack Application
+
+A production-ready serverless web application is available in `real_estate_pricing_app/` that combines all the pricing advisor functionality into a secure, scalable cloud deployment. Built with AWS CDK, the application features:
+
+- **Serverless Architecture**: Fully managed infrastructure using AWS Lambda, API Gateway, S3, and CloudFront
+- **Secure Authentication**: AWS Cognito-based user management with email verification and JWT tokens
+- **AI-Powered Conversations**: Multi-turn pricing consultations using Amazon Bedrock Claude Haiku 4.5
+- **Persistent History**: DynamoDB storage for all pricing consultations with user-specific retrieval
+- **Modern Frontend**: React TypeScript SPA with responsive design and real-time chat interface
+- **Professional Pricing Framework**: Embedded CMA methodology, search bracket optimization, and FSBO-specific guidance
+- **Infrastructure as Code**: Complete AWS CDK deployment with environment-specific configurations
+
+The application implements the same pricing strategy and conversational flow as `price_chatbot.py` but provides a production-grade deployment with authentication, data persistence, and scalable infrastructure. See `real_estate_pricing_app/README.md` and `real_estate_pricing_app/DEPLOYMENT.md` for setup instructions.
 
 ### Your Listing (`my.json`)
 Edit this file with your property details to get a fair market price estimate.
